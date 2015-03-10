@@ -1,0 +1,39 @@
+body {
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 9px;
+}
+
+.header {
+	background: #efefef;
+	padding: 20px;
+	padding: 8px 10px;
+	font-weight: bold;
+	font-size: 110%;
+	text-align: right;
+}
+
+h2 {
+	font-size: 110%;
+	font-weight: bold;
+	border-top: 1px solid #CCCCCC;
+	margin: 10px 0 6px 0;
+	padding: 3px 0 0 0;
+}
+
+.content {
+	padding: 0 10px 10px 10px;
+}
+
+ul {
+	margin: 5px 0 5px 15px;
+}
+
+.meta {
+	color: #444444;
+	margin: 5px 0 20px 0;
+	padding: 0;
+	text-transform: uppercase;
+}
