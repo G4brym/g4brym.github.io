@@ -16,6 +16,7 @@ fancyGraphics:true
 ao:2
 clouds:true
 resourcePacks:["faithful32pack.zip"]
+skin:faithful32pack.zip
 lastServer:
 lang:en_US
 chatVisibility:0
