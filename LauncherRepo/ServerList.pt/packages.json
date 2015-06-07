@@ -9,19 +9,43 @@
       "priority": 1
     }
   ],
- "lastVersion": "1.8.6", 
+ "lastVersion": "1.8.7", 
  "versions": [
+    {
+      "version": "1.8.7"
+    },
     {
       "version": "1.8.6"
     },
     {
+      "version": "1.8.5"
+    },
+    {
+      "version": "1.8.4"
+    },
+    {
+      "version": "1.8.3"
+    },
+    {
+      "version": "1.8.2"
+    },
+    {
       "version": "1.8.1"
+    },
+    {
+      "version": "1.8"
     },
     {
       "version": "1.7.10"
     },
     {
       "version": "1.7.9"
+    },
+    {
+      "version": "1.7.8"
+    },
+    {
+      "version": "1.7.6"
     },
     {
       "version": "1.7.5"
@@ -33,13 +57,22 @@
       "version": "1.7.2"
     },
     {
+      "version": "1.7"
+    },
+    {
       "version": "1.6.4"
+    },
+    {
+      "version": "1.6.2"
     },
     {
       "version": "1.5.2"
     },
     {
       "version": "1.4.7"
+    },
+    {
+      "version": "1.4.6"
     },
     {
       "version": "1.2.5"
