@@ -3917,7 +3917,7 @@
 			}
 
 		}
-		
+
 #footer > div {
 	padding: 20px !important;
 }
@@ -3936,4 +3936,12 @@
 	margin: 0;
 	font-size:300%;
 	text-align: center;
+}
+.profile-flag {
+	font-size: 50%;
+	color: #e0e0e0;
+}
+.profile-flag > img{
+	width: 25px;
+	margin: 0px 0px -5px 10px;
 }
