@@ -1,4 +1,6 @@
-***http://G4brym.ovh || http://g4brym.github.io***
-============
+# g4brym.github.io
+This is my porfolio
 
-***G4brym Web Repository***
+### Preview
+Single Page
+![single page](https://github.com/G4brym/g4brym.github.io/raw/master/preview.jpg)
