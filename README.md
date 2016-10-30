@@ -3,4 +3,4 @@ This is my porfolio
 
 ### Preview
 Single Page
-![single page](https://github.com/G4brym/g4brym.github.io/raw/master/preview.jpg)
+![single page](https://github.com/G4brym/g4brym.github.io/raw/master/resources/images/preview.jpg)
