@@ -5,7 +5,7 @@ return new Za.prototype.init(a,b,c,d,e)}m.Tween=Za,Za.prototype={constructor:Za,
 $( document ).ready(function() {
 	$.get( "https://api.github.com/users/g4brym", function( data ) {
 		$('#gh-name').html(data.name);
-		$('#gh-desc').html(data.bio.replace(' - ', "<br>"));
+		$('#gh-desc').html(data.bio.replace(' - ', " <br>"));
 		$('#gh-public').html(data.public_repos + " Public repositories on Github");
 		var days = Math.floor(( new Date() - Date.parse(data.created_at)) / 86400000);
 		$('#gh-days').html(days + " Days on Github");

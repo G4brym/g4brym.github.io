@@ -3934,6 +3934,7 @@
 	width:175px;
 	float:left;
 	margin-right: 25px;
+	border-radius: 6px;
 }
 .icons {
 	margin: 0;
@@ -3947,4 +3948,16 @@
 .profile-flag > img{
 	width: 25px;
 	margin: 0px 0px -5px 10px;
+}
+
+@media (max-width: 900px) {
+	.profile-img {
+		height:auto !important;
+		width:100% !important;
+		margin-bottom: 10px;
+	}
+
+	.hide-sm {
+		display: None;
+	}
 }
