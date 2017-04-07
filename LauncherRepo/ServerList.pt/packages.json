@@ -9,8 +9,14 @@
       "priority": 1
     }
   ],
- "lastVersion": "1.9.4", 
+ "lastVersion": "1.11.2", 
  "versions": [
+    {
+      "version": "1.11.2"
+    },
+    {
+      "version": "1.10.2"
+    },
     {
       "version": "1.9.4"
     },
