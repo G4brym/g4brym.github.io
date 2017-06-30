@@ -1,0 +1,12 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : "Pixelmon",
+      "name" : "Pixelmon",
+      "version" : "2017-06-30-20-50-53",
+      "location" : "pixelmon.json",
+      "priority" : 1
+    }
+  ]
+}
