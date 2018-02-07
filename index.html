@@ -182,6 +182,23 @@
                                         <ul class="portfolio_slider_ul">
                                             <li>
                                                 <div class="image_frame scale-with-grid">
+                                                    <div id="silver" class="image_wrapper">
+                                                        <a class="clickable">
+                                                            <div class="mask"></div>
+                                                            <img width="640" height="500"
+                                                                 src="resources/portfolio/images/silver/silver-intro.jpg"
+                                                                 class="scale-with-grid wp-post-image"
+                                                                 alt="silver"/>
+                                                        </a>
+                                                        <div class="image_links">
+                                                            <a class="zoom clickable" rel="prettyphoto"><i
+                                                                    class="fa fa-search" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="image_frame scale-with-grid">
                                                     <div id="silver-mobile" class="image_wrapper">
                                                         <a class="clickable">
                                                             <div class="mask"></div>
@@ -323,8 +340,6 @@
 
                 <div class="pswp__top-bar">
 
-                    <!--  Controls are self-explanatory. Order can be changed. -->
-
                     <div class="pswp__counter"></div>
 
                     <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
@@ -335,8 +350,6 @@
 
                     <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 
-                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                    <!-- element will get class pswp__preloader--active when preloader is running -->
                     <div class="pswp__preloader">
                         <div class="pswp__preloader__icn">
                             <div class="pswp__preloader__cut">
@@ -411,6 +424,7 @@
 
         var options = {
             index: 0,
+            history: false,
             shareButtons: [
                 {id:'download', label:'Download image', url:'{{raw_image_url}}', download:true}
             ]
@@ -428,31 +442,97 @@
                     src: 'resources/portfolio/images/silver-mobile/1.png',
                     w: 720,
                     h: 1280,
-                    title: 'Image Caption<br><small>hgfhjfhg</small>',
+                    title: 'I will add later<br><small>Client: Log-PME</small>',
                 },
                 {
                     src: 'resources/portfolio/images/silver-mobile/2.png',
                     w: 720,
                     h: 1280,
-                    title: 'Image Caption<br><small>hgfhjfhg</small>',
+                    title: 'I will add later<br><small>Client: Log-PME</small>',
                 },
                 {
                     src: 'resources/portfolio/images/silver-mobile/3.png',
                     w: 720,
                     h: 1280,
-                    title: 'Image Caption<br><small>hgfhjfhg</small>',
+                    title: 'I will add later<br><small>Client: Log-PME</small>',
                 },
                 {
                     src: 'resources/portfolio/images/silver-mobile/4.png',
                     w: 720,
                     h: 1280,
-                    title: 'Image Caption<br><small>hgfhjfhg</small>',
+                    title: 'I will add later<br><small>Client: Log-PME</small>',
                 },
                 {
                     src: 'resources/portfolio/images/silver-mobile/5.png',
                     w: 720,
                     h: 1280,
-                    title: 'Image Caption<br><small>hgfhjfhg</small>',
+                    title: 'I will add later<br><small>Client: Log-PME</small>',
+                }
+            ];
+
+            presentation(items);
+        });
+        $( "#silver" ).click(function() {
+            var items = [
+                {
+                    src: 'resources/portfolio/images/silver/1.png',
+                    w: 1600,
+                    h: 931,
+                    title: 'I will add later<br><small>Client: Log-PME</small>',
+                },
+                {
+                    src: 'resources/portfolio/images/silver/2.png',
+                    w: 1600,
+                    h: 986,
+                    title: 'I will add later<br><small>Client: Log-PME</small>',
+                },
+                {
+                    src: 'resources/portfolio/images/silver/3.png',
+                    w: 1600,
+                    h: 1573,
+                    title: 'I will add later<br><small>Client: Log-PME</small>',
+                },
+                {
+                    src: 'resources/portfolio/images/silver/4.png',
+                    w: 1600,
+                    h: 1566,
+                    title: 'I will add later<br><small>Client: Log-PME</small>',
+                },
+                {
+                    src: 'resources/portfolio/images/silver/5.png',
+                    w: 1600,
+                    h: 773,
+                    title: 'I will add later<br><small>Client: Log-PME</small>',
+                },
+                {
+                    src: 'resources/portfolio/images/silver/6.png',
+                    w: 1600,
+                    h: 1400,
+                    title: 'I will add later<br><small>Client: Log-PME</small>',
+                },
+                {
+                    src: 'resources/portfolio/images/silver/7.png',
+                    w: 1600,
+                    h: 773,
+                    title: 'I will add later<br><small>Client: Log-PME</small>',
+                },
+                {
+                    src: 'resources/portfolio/images/silver/8.png',
+                    w: 1600,
+                    h: 1141,
+                    title: 'I will add later<br><small>Client: Log-PME</small>',
+                },
+                {
+                    src: 'resources/portfolio/images/silver/9.png',
+                    w: 1600,
+                    h: 1502,
+                    title: 'I will add later<br><small>Client: Log-PME</small>',
+                },
+                {
+                    src: 'resources/portfolio/images/silver/10.png',
+                    w: 1600,
+                    h: 772,
+                    title: 'I will add later<br><small>Client: Log-PME</small>',
                 }
             ];
 
