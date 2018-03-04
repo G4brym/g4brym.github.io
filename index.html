@@ -122,9 +122,9 @@
 
                                                     <h4>Google Digital Marketing</h4>
                                                     <p style="color: #818181;">
-                                                        With the duration of 3 days in leiria
+                                                        With the duration of 3 days in Leiria
                                                         <br>
-                                                        This course explained the essential of SEO and increase the
+                                                        This course explained the essential of SEO and how increase the
                                                         traffic coming from advertising and organic.
                                                     </p>
                                                 </div>
@@ -180,6 +180,25 @@
                                             class="slider_nav slider_next themebg" href="#"><i
                                             class="icon-right-open-big"></i></a>
                                         <ul class="portfolio_slider_ul">
+                                            <li>
+                                                <div class="image_frame scale-with-grid">
+                                                    <div class="image_wrapper">
+                                                        <a href="https://github.com/G4brym/Minesfinder"
+                                                           target="_blank">
+                                                            <div class="mask"></div>
+                                                            <img width="640" height="500"
+                                                                 src="resources/portfolio/images/minesfinder.jpg"
+                                                                 class="scale-with-grid wp-post-image"
+                                                                 alt="Minesfinder"/>
+                                                        </a>
+                                                        <div class="image_links">
+                                                            <a href="https://github.com/G4brym/Minesfinder"
+                                                               target="_blank" class="zoom" rel="prettyphoto"><i
+                                                                    class="fa fa-search" aria-hidden="true"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
                                             <li>
                                                 <div class="image_frame scale-with-grid">
                                                     <div id="silver" class="image_wrapper">
@@ -419,24 +438,24 @@
 <script src="resources/portfolio/photoswipe/photoswipe-ui-default.min.js"></script>
 
 <script>
-    function presentation(items){
+    function presentation(items) {
         var pswpElement = document.querySelectorAll('.pswp')[0];
 
         var options = {
             index: 0,
             history: false,
             shareButtons: [
-                {id:'download', label:'Download image', url:'{{raw_image_url}}', download:true}
+                {id: 'download', label: 'Download image', url: '{{raw_image_url}}', download: true}
             ]
         };
 
-        var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+        var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
         gallery.init();
 
     }
 
-    $( document ).ready(function() {
-        $( "#silver-mobile" ).click(function() {
+    $(document).ready(function () {
+        $("#silver-mobile").click(function () {
             var items = [
                 {
                     src: 'resources/portfolio/images/silver-mobile/1.png',
@@ -472,7 +491,7 @@
 
             presentation(items);
         });
-        $( "#silver" ).click(function() {
+        $("#silver").click(function () {
             var items = [
                 {
                     src: 'resources/portfolio/images/silver/1.png',
