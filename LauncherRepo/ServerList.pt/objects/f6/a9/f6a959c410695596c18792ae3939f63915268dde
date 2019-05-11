@@ -1,0 +1,115 @@
+The keys listed below are the default keys.
+------------------------------------
+VoxelFlight
+by The VoxelModPack Team
+-Press "F" to toggle flying mode on/off
+-Press "E" to ascend while in flying mode
+-Press "Q" to descend while in flying mode
+-Hold "Shift" to speed up
+------------------------------------
+VoxelWorld
+by xTiming
+-Allows the player to control of the world
+    renderer
+-Take control of light rendering using
+    the "-" key 
+-Override the current weather using
+    the "=" key
+-Adjust the color and thickness of fog
+    using the "P"
+-Toggle the visibility of first person flames
+-Bonus: Removes water fog and void fog
+-Press "F6" to open the VoxelWorld menu
+------------------------------------
+VoxelPlayer
+by xTiming and Mumfrey
+-Chat bubbles appear when players
+    chat in-game
+-Colors names based on plugin
+-Press "F9" to open the VoxelPlayer menu
+------------------------------------
+VoxelTextures
+by Mumfrey
+-Automatically switches your texture
+    pack based on a region system
+-Text appears indicating the current
+    region
+-The region information automatically
+    updates from the server
+------------------------------------
+Sun Control
+-Press "+" on the number pad to offset
+    sun & moon forward
+-Press "-" on the number pad to offset
+    sun & moon backward
+-Press "End" to freeze the sun & moon
+-Press "Backspace" to re-sync the sun
+   & moon with the server
+------------------------------------
+Rei's Minimap
+by ReiFNSK
+-A detailed minimap with many features
+-Press "Z" to change the zoom level
+-Press "X" to toggle the large map
+-Press "M" to bring up the minimap menu
+------------------------------------
+GlitterHaddon
+by Hurricaaane
+Minaptics
+-Press "Tab" to toggle zoom
+-Hold "Tab" & move your mouse up
+   or down to adjust the zoom level
+MLP Skinning In-Game
+-Press "CTRL-SHIFT-P" to enable
+    Pony Edit Mode.
+-Edit .minecraft/skin.png with an
+    external editor.
+-Whenever you edit this file, your
+    skin will update ingame to view
+-Also works with the human model
+------------------------------------
+Macro/Keybind Mod
+by Mumfrey
+-Allows for complex marcos, keybinds, and
+    scripts to be created easily.
+-Press [Sneak Key] + "`" ("~") to bring
+    up the Macro/Keybind GUI.
+-You can change the override buttons 
+    used by the mod in the controls menu
+-Enables use of scripts to complete tasks
+-Visit the Macro/Keybind Mod forum thread
+    to learn more about the features.
+------------------------------------
+VoxelGET
+by Mumfrey
+-Displays a chart of all blocks and items
+-Also adds "Clear" and "Kit" buttons
+-Click the "Open VoxelGET" button on the
+   top-right of the inventory screen
+-Left-clicking on an item will add 64 of it
+-Right-clicking on an item will add 1 of it
+-Middle-clicking on an item will add infinite
+   of it (on servers that support it)
+-Click the options button in the top-left of
+   the VoxelGET area to adjust the settings
+------------------------------------
+WorldEditCUI
+by Yetanotherx
+-Shows a selection box when you select
+    things with WorldEdit.
+------------------------------------
+MCPatcher
+by Kahr
+HD Textures
+-Allows HD Texture Packs to be used
+-Texture packs may add custom animations
+HD Fonts
+-Allows Texture Packs to have HD Fonts
+Custom Colors
+-Allows Texture Packs to customize colors
+Connected Textures
+-Removes seams between glass blocks
+------------------------------------
+
+
+And may the best pet win!

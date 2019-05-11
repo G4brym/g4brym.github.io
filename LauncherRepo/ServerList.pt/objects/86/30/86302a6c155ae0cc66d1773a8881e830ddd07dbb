@@ -1,0 +1,43 @@
+# Configuration file
+
+####################
+# block
+####################
+
+block {
+    I:tubestuff.id=1150
+    I:tubestuff.storage.id=1151
+}
+
+
+####################
+# general
+####################
+
+general {
+    B:autoAssign=false
+    B:enableMicroblocks=false
+    B:tubestuff.enableBHCAnim=true
+    B:tubestuff.enableBHCParticles=true
+    B:tubestuff.enableBlackHoleChest=false
+    B:tubestuff.enableCraftingBlockBreaker=true
+    B:tubestuff.enableCraftingIncinerator=true
+    B:tubestuff.enableCraftingLiquidIncinerator=true
+    B:tubestuff.enableCraftingOnlinePlayerDetector=true
+    B:tubestuff.enableCraftingRetrievulator=true
+    B:tubestuff.enableSlowDustFalling=false
+    B:tubestuff.enableStorageBlocks=true
+    B:tubestuff.enableStorageBlocks.useOreDictionary=true
+    B:tubestuff.enableStorageBlocks.vanilla=true
+}
+
+
+####################
+# item
+####################
+
+item {
+    I:tubestuff.uselessItem=11307
+}
+
+

@@ -1,0 +1,38 @@
+# Configuration file
+
+####################
+# block
+####################
+
+block {
+    I:BlueprintProjector=2454
+    I:ChemicalStorage=2455
+    I:Decomposer=2451
+    I:FusionChamber=2456
+    I:GhostBlock=2457
+    I:Microscope=2452
+    I:Synthesis=2453
+}
+
+
+####################
+# item
+####################
+
+item {
+    I:AtomicManipulator=7001
+    I:Blueprint=7002
+    I:ChemistJournal=7003
+    I:ChemistryTurtleUpgrade=7004
+    I:Element=7005
+    I:FusionStar=7006
+    I:HazmatFeet=7007
+    I:HazmatHead=7008
+    I:HazmatLegs=7009
+    I:HazmatTorso=7010
+    I:Lens=7011
+    I:Molecule=7012
+    I:TestTube=7013
+}
+
+

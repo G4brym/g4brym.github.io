@@ -1,0 +1,51 @@
+# Configuration file
+
+####################
+# block
+####################
+
+block {
+    I:ArmorStand=2875
+    I:Bookcase=2876
+    I:DoesNotExsist=2877
+    I:GenericShelf=2878
+    I:PotionShelf=2879
+    I:WeaponCase=2880
+    I:WeaponRack=2881
+    I:WoodenLabel=2882
+    I:WritingDesk=2883
+}
+
+
+####################
+# general
+####################
+
+general {
+    # These are keywords that add additional support for more types of potions and items. Add more keyworks if you wish to allow more types of items to be displayed.
+    S:AdditionalPotions=essence, mead, bottle, test, element, molecule, can, capsule, cell, catalyst, ambrosia, honey pot, dissipation, magnifying
+
+    # These are the names of additional tools that can be added to the Tool Rack. Added keywords will allow additional items to be placed on this block.
+    S:AdditionalTools=sprayer, wand, rod, scepter, wrench, screwdriver, meter, handsaw, gun, cutter, scoop, soldering, painter, reader, shovel, grafter, pickaxe, pipette
+
+    # Should blank books be allowed on Bookcases? (true or false)
+    B:AllowEmptyBooks=false
+
+    # These are the keywords that are compared against the item names to determine if the item can be placed on a Bookcase. Add more keywords if needed.
+    S:AllowedBooks=book, map, journal, plan, thaumonomicon, necronomicon, lexicon, print, notes, spell, library, tome, encyclopedia
+
+    # Is OptiFine installed? Change this to true if so and it will fix a rendering bug that casues items on shelves to render higher than they should.
+    B:IsOptifineInstalled=false
+}
+
+
+####################
+# item
+####################
+
+item {
+    I:TapeMeasure=22222
+    I:TapeReel=22223
+}
+
+

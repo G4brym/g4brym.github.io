@@ -1,0 +1,41 @@
+# Configuration file
+
+####################
+# block
+####################
+
+block {
+    I:Armbot=2900
+    I:"Conveyor Belt"=2901
+    I:"Crane Controller"=2902
+    I:"Crane Frame"=2903
+    I:Crate=2904
+    I:Detector=2905
+    I:Encoder=2906
+    I:Imprinter=2907
+    I:Manipulator=2908
+    I:Multiblock=2909
+    I:Rejector=2910
+    I:Turntable=2911
+}
+
+
+####################
+# general
+####################
+
+general {
+    B:requirePower=true
+}
+
+
+####################
+# item
+####################
+
+item {
+    I:Disk=14031
+    I:Imprint=14030
+}
+
+

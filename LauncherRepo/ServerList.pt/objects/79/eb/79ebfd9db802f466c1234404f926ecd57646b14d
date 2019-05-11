@@ -1,0 +1,73 @@
+# Configuration file
+
+####################
+# block
+####################
+
+block {
+    I:BlockID1=2925
+    I:BlockID10=2926
+    I:BlockID11=2927
+    I:BlockID12=2928
+    I:BlockID13=2929
+    I:BlockID14=2930
+    I:BlockID15=2931
+    I:BlockID16=2932
+    I:BlockID17=2933
+    I:BlockID18=2934
+    I:BlockID19=2935
+    I:BlockID2=2936
+    I:BlockID3=2937
+    I:BlockID4=2938
+    I:BlockID5=2939
+    I:BlockID7=2940
+    I:BlockID8=2941
+    I:BlockID9=2942
+    I:"Radioactive Block"=2943
+}
+
+
+####################
+# general
+####################
+
+general {
+    B:"Auto Disable Uranium If Exist"=false
+    B:"Disable IC2 Uranium Compression (Recommended)"=true
+    B:"Disable IC2 Uranium Generation"=true
+    B:"Disable Radiation"=false
+}
+
+
+####################
+# item
+####################
+
+item {
+    I:HazmatBody=13766
+    I:HazmatBoots=13764
+    I:HazmatBottom=13765
+    I:HazmatTop=13767
+    I:antimatter=13774
+    I:deuteriumCell=13772
+    I:emptyCell=13769
+    I:fissileFuel=13771
+    I:steam=13779
+    I:strangeMatter=13773
+    I:thermometer=13768
+    I:uranium=13777
+    I:uraniumHexafluoride=13778
+    I:waterCell=13780
+    I:yellowCake=13776
+}
+
+
+####################
+# ""ore generation""
+####################
+
+"""ore generation""" {
+    B:"Generate Uranium Ore"=true
+}
+
+

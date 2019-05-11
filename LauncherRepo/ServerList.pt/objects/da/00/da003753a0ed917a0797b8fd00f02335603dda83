@@ -1,0 +1,151 @@
+# Configuration file
+
+####################
+# berries
+####################
+
+berries {
+    I:"Blackberry Spawn Range"=128
+    I:"Blackberry Spawn Rarity"=16
+    I:"Blueberry Spawn Range"=128
+    I:"Blueberry Spawn Rarity"=18
+    I:"Geoberry Spawn Range"=128
+    I:"Geoberry Spawn Rarity"=14
+    I:"Raspberry Spawn Range"=128
+    I:"Raspberry Spawn Rarity"=18
+}
+
+
+####################
+# block
+####################
+
+block {
+    I:Berry_Bush=3257
+    I:"Bloodwood Block"=3263
+    I:"Bloodwood Door"=3268
+    I:"Cloud Block"=3253
+    I:Crops=3260
+    I:"Eucalyptus Door"=3264
+    I:"Flora Leaves"=3259
+    I:"Ghostwood Door"=3267
+    I:"Hopseed Door"=3265
+    I:"Planks Block"=3262
+    I:"Redwood Bark Door"=3269
+    I:"Redwood Block"=3261
+    I:"Redwood Door"=3252
+    I:"Sakura Door"=3266
+    I:"Sakura Leaves"=3258
+    I:Sapling=3256
+    I:"Wood Block"=3251
+}
+
+
+####################
+# boat item
+####################
+
+"boat item" {
+    I:item=12405
+}
+
+
+####################
+# clouds
+####################
+
+clouds {
+    I:"Ash Cloud Spawn Density"=3
+    I:"Ash Cloud Spawn Height"=40
+    I:"Ash Cloud Spawn Range"=78
+    I:"Cloud Spawn Density"=10
+    I:"Cloud Spawn Height"=192
+    I:"Cloud Spawn Range"=48
+    I:"Dark Cloud Spawn Density"=10
+    I:"Dark Cloud Spawn Height"=64
+    I:"Dark Cloud Spawn Range"=128
+    I:"Sulfur Cloud Spawn Density"=3
+    I:"Sulfur Cloud Spawn Height"=40
+    I:"Sulfur Cloud Spawn Range"=78
+}
+
+
+####################
+# crops
+####################
+
+crops {
+    I:"Barley Spawn Density"=64
+    I:"Barley Spawn Range"=64
+}
+
+
+####################
+# disabler
+####################
+
+disabler {
+    B:"Enable Barley"=true
+    B:"Enable Berry Bushes"=true
+}
+
+
+####################
+# general
+####################
+
+general {
+    I:"Sea level"=64
+}
+
+
+####################
+# item
+####################
+
+item {
+    I:"Barley Bag"=12412
+    I:"Barley Seed"=12403
+    I:Berry_Food=12402
+    I:"Carrot Bag"=12414
+    I:"Door Item"=12406
+    I:"Food Items"=12404
+    I:Ingredients=12407
+    I:"Nether Wart Bag"=12415
+    I:"Potato Bag"=12413
+    I:"Wheat Bag"=12411
+}
+
+
+####################
+# trees
+####################
+
+trees {
+    I:"Bloodwood Tree Spawn Density"=5
+    I:"Bloodwood Tree Spawn Height"=32
+    I:"Bloodwood Tree Spawn Range"=64
+    I:"Bush Tree Spawn Density"=10
+    I:"Bush Tree Spawn Height"=64
+    I:"Bush Tree Spawn Range"=20
+    B:"Generate Bloodwood Trees"=true
+    B:"Generate Ghost Trees"=true
+    B:"Generate Hopseed Trees"=true
+    B:"Generate Redwood Trees"=true
+    B:"Generate Sakura Trees"=true
+    B:"Generate Small Eucalyptus Trees"=true
+    I:"Ghost Tree Spawn Density"=25
+    I:"Ghost Tree Spawn Height"=16
+    I:"Ghost Tree Spawn Range"=80
+    I:"Redwood Tree Spawn Density"=60
+    I:"Redwood Tree Spawn Height"=64
+    I:"Redwood Tree Spawn Range"=32
+    I:"Sakura Tree Spawn Density"=10
+    I:"Sakura Tree Spawn Height"=64
+    I:"Sakura Tree Spawn Range"=32
+    I:"Small Eucalyptus Tree Spawn Density"=25
+    I:"Small Eucalyptus Tree Spawn Height"=64
+    I:"Small Eucalyptus Tree Spawn Range"=32
+}
+
+

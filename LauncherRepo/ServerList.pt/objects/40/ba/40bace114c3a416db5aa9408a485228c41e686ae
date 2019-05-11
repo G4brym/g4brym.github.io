@@ -1,0 +1,27 @@
+# Configuration file
+
+####################
+# cc
+####################
+
+cc {
+    ####################
+    # tuning
+    ####################
+
+    tuning {
+        D:Explosion_DropChance=1.0
+    }
+
+}
+
+
+####################
+# messages
+####################
+
+messages {
+    B:welcome=true
+}
+
+

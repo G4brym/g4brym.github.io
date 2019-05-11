@@ -1,0 +1,26 @@
+# Forestry
+# 2.0.0.11 (333)
+#
+# Config files:
+# base.conf		-	 Contains Forge configuration for block and item ids
+# common.conf		-	 Contains all options common to Forestry
+# apiculture.conf	-	 Contains all options for bee breeding
+# backpacks.conf	-	 Contains custom configurations for backpacks
+# pipes.conf		-	 Configures item id for the apiarist's pipe
+# gamemodes/		-	 Configures available gamemodes
+
+#####################
+# BACKPACKS
+#####################
+# add additional blocks and items for the miner's backpack here in the format id:meta. separate blocks and items using ';'
+backpacks.miner.items=200; 200:1; 200:2; 200:3; 200:4; 200:5; 200:6; 200:7; 220; 220:1; 220:2; 220:3; 220:4; 220:5; 221; 221:1; 221:2; 221:3; 221:4; 221:5; 244; 245; 688; 9264; 11400; 20257:96; 20257:97; 24256; 24257; 24258; 24259; 24260; 24261; 24262; 24263; 24264; 24265; 24266; 24267; 25263:2; 25263:3; 25263:6; 30128; 30243; 30244
+# add additional blocks and items for the digger's backpack here in the format id:meta. separate blocks and items using ';'
+backpacks.digger.items=48; 215; 215:3; 1050:4
+# add additional blocks and items for the forester's backpack here in the format id:meta. separate blocks and items using ';'
+backpacks.forester.items=32; 211; 214; 627; 1302; 1310; 1312; 1312:1; 1312:2; 1313; 1313:1; 1313:2; 1314; 1314:1; 1314:2; 1315; 1315:1; 1315:2; 1505; 1505:1; 5327; 24269; 24270; 24271; 24272
+# add additional blocks and items for the hunter's backpack here in the format id:meta. separate blocks and items using ';'
+backpacks.hunter.items=1501; 1502; 1509; 27320; 27299; 27299:256
+# add blocks and items for the adventurer's backpack here in the format id:meta. separate blocks and items using ';'
+backpacks.adventurer.items=
+# add blocks and items for the builder's backpack here in the format id:meta. separate blocks and items using ';'
+backpacks.builder.items=215:1; 215:2; 215:4; 215:5; 215:6; 1304:1; 1304:2; 1318; 1319:1; 1319:2

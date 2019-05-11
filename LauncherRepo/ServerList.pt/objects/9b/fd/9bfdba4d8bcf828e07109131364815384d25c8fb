@@ -1,0 +1,47 @@
+# Configuration file
+
+####################
+# block
+####################
+
+block {
+    I:idBlockCheese=3440
+    I:idBlockMoonDirt=3441
+    I:idBlockMoonGrass=3442
+    I:idBlockMoonOre=3443
+    I:idBlockMoonStone=3444
+}
+
+
+####################
+# dimensions
+####################
+
+dimensions {
+    I:"Moon Dimension ID"=-28
+}
+
+
+####################
+# general
+####################
+
+general {
+    B:"Disable Aluminium Ore Gen on Moon"=false
+    B:"Disable Cheese Ore Gen on Moon"=false
+    B:"Disable Iron Ore Gen on Moon"=false
+}
+
+
+####################
+# item
+####################
+
+item {
+    I:idItemBlockCheese=10002
+    I:idItemCheeseCurd=10000
+    I:idItemMeteoricIronIngot=10003
+    I:idItemMeteoricIronRaw=10001
+}
+
+

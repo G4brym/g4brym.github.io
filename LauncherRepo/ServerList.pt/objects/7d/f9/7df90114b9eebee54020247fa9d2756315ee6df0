@@ -1,0 +1,64 @@
+function getHeight(height)
+  if height >= 2.0 then return "Gigantic"
+  elseif height >= 1.75 then return "Largest"
+  elseif height >= 1.5 then return "Larger"
+  elseif height >= 1.25 then return "Large"
+  elseif height >= 1.0 then return "Average"
+  elseif height >= 0.75 then return "Small"
+  elseif height >= 0.5 then return "Smaller"
+  else return "Smallest" end
+end
+
+function getFertility(fertility)
+  if fertility >= 0.3 then return "Triple"
+  elseif fertility >= 0.2 then return "Double"
+  else return "Normal" end
+end
+
+function getYield(yield)
+  if yield >= 0.35 then return "Largest"
+  elseif yield >= 0.3 then return "Larger"
+  elseif yield >= 0.25 then return "Large"
+  elseif yield >= 0.2 then return "Normal"
+  elseif yield >= 0.15 then return "Low"
+  elseif yield >= 0.1 then return "Lower"
+  else return "Lowest" end
+end
+
+treeAnalyzer = nil
+treeAnalyzerSide = nil
+for i, side in pairs(rs.getSides()) do
+  if peripheral.getType(side) == "treeAnalyzer" then
+    treeAnalyzer = peripheral.wrap(side)
+    treeAnalyzerSide = side
+    break
+  end
+end
+
+if treeAnalyzer == nil then
+  print("No Tree Analyzer peripheral found")
+  return
+end
+
+print("Using Tree Analyzer peripheral on "..treeAnalyzerSide)
+
+tree = treeAnalyzer.analyze()
+if tree == nil then
+  if treeAnalyzer.isTree() then
+    print("Tree not analyzed")
+  else
+    print("Tree not found")
+  end
+  return
+end
+
+print("")
+print("Species: "..tree["speciesPrimary"].."-"..tree["speciesSecondary"])
+print("Height: "..getHeight(tree["height"]))
+print("Fertility: "..getFertility(tree["fertility"]))
+print("Yield: "..getYield(tree["yield"]))
+print("Fruit: "..tree["fruit"])
+print("Growth: "..tree["growth"])
+print("Girth: "..tree["girth"])
+print("Plant: "..tree["plant"])
+print("Tolerated Plants: "..table.concat(tree["tolerancePlants"], ", "))

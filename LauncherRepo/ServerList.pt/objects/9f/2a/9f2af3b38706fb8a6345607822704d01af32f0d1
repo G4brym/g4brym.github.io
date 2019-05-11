@@ -1,0 +1,107 @@
+if not term.isColor() then
+  print("This program requires an advanced computer")
+  return
+end
+
+function writeBar(title, onTextColor, onColor, amount, maximum, invert)
+  sizeX, sizeY = term.getSize()
+  barWidth = (amount / maximum) * sizeX
+  if invert then
+    barWidth = sizeX - barWidth
+  end
+  if invert then
+    amountString = (maximum - amount).."/"..maximum
+  else
+    amountString = amount.."/"..maximum
+  end
+   
+  for i = 1, sizeX do
+    if i <= barWidth then
+      term.setTextColor(onTextColor)
+      term.setBackgroundColor(onColor)
+    else
+      term.setTextColor(colors.white)
+      term.setBackgroundColor(colors.black)
+    end
+    if i <= #title then
+      term.write(title:sub(i, i))
+    elseif i > sizeX - #amountString then
+      term.write(amountString:sub(#amountString - (sizeX - i), #amountString - (sizeX - i)))
+    else
+      term.write(" ")
+    end
+  end
+  
+  print("")
+end
+
+nuclearReaders = {}
+nuclearReaderSides = {}
+for i, side in pairs(rs.getSides()) do
+  if peripheral.getType(side) == "nuclearReader" then
+    table.insert(nuclearReaders, peripheral.wrap(side))
+    table.insert(nuclearReaderSides, side)
+  end
+end
+
+if #nuclearReaders < 1 then
+  print("No Nuclear Info Reader peripherals found")
+  return
+end
+
+heatMode = false
+parallel.waitForAny(
+  function()
+    term.clear()
+    term.setCursorPos(1, 1)
+    print("Using Nuclear Info Reader peripherals on "..table.concat(nuclearReaderSides, ", "))
+    print("Press any key to exit, or M to switch display mode")
+    print("")
+    
+    baseX, baseY = term.getCursorPos()
+    while true do
+      for i, nuclearReader in pairs(nuclearReaders) do
+        for slot = 1, nuclearReader.getSlots() do
+          id, state, title, info = nuclearReader.get(slot)
+          if id == "00000000-0000-0000-0000-000000000000" then
+            bartitle = "Idle"
+            onColor = colors.lightGray
+            onTextColor = colors.black
+            if info["output"] > 0 then
+              bartitle = "Running"
+              onColor = colors.lime
+            elseif info["reactorPoweredB"] then
+              bartitle = "No Fuel"
+              onColor = colors.red
+              onTextColor = colors.white
+            elseif info["heat"] > 0 then
+              bartitle = "Cooldown"
+              onColor = colors.lightBlue
+            end
+            
+            if heatMode then
+              writeBar(title..": "..bartitle, onTextColor, onColor, info["heat"], info["maxHeat"], false)
+            else
+              writeBar(title..": "..bartitle, onTextColor, onColor, info["timeLeft"], 10000, true)
+            end
+          end
+        end
+        
+        sleep(0)
+      end
+      
+      term.setCursorPos(baseX, baseY)
+      sleep(1)
+    end
+  end,
+  function()
+    while true do
+      event, char = os.pullEvent("char")
+      if char == "m" then
+        heatMode = not heatMode
+      else
+        break
+      end
+    end
+  end
+)

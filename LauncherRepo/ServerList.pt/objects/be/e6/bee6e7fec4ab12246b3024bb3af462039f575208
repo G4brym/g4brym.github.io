@@ -1,0 +1,59 @@
+directions = {"Down", "Up", "North", "South", "East", "West"}
+directionNames = {down = 0, up = 1, north = 2, south = 3, east = 4, west = 5}
+
+args = {...}
+if #args < 2 or math.fmod(#args, 2) == 1 then
+  print("Usage: diamondpipe item direction [item direction] [item direction]...")
+  return
+end
+
+sortingTable = {}
+for i = 1, #args, 2 do
+  if tonumber(args[i + 1]) == nil then
+    sortingTable[args[i]] = directionNames[args[i + 1]:lower()]
+  else
+    sortingTable[args[i]] = tonumber(args[i + 1])
+  end
+  if sortingTable[args[i]] == nil then
+    print("Invalid direction (expected 0-5/down/up/north/south/east/west) at "..i)
+    return
+  end
+end
+
+interactiveSorter = nil
+interactiveSorterSide = nil
+for i, side in pairs(rs.getSides()) do
+  if peripheral.getType(side) == "interactiveSorter" then
+    interactiveSorter = peripheral.wrap(side)
+    interactiveSorterSide = side
+    break
+  end
+end
+
+if interactiveSorter == nil then
+  print("No Interactive Sorter peripheral found")
+  return
+end
+
+print("Using Interactive Sorter peripheral on "..interactiveSorterSide)
+print("Acting like a diamond pipe with the following rules:")
+print("")
+
+for item, direction in pairs(sortingTable) do
+  print(item..": "..directions[direction + 1])
+end
+
+print("")
+
+while true do
+  event, item, amount = os.pullEvent("isort_item")
+  
+  if sortingTable[item] == nil then
+    direction = math.random(0, 5)
+  else
+    direction = sortingTable[item]
+  end
+  
+  print("Sorting "..amount.."x "..item.." to "..direction)
+  interactiveSorter.sort(direction, amount)
+end

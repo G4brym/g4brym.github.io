@@ -1,0 +1,41 @@
+# Configuration file
+
+####################
+# block
+####################
+
+block {
+    # The block ID for the gauge block
+    I:gaugeBlockID=3392
+
+    # The block ID for the sensor block
+    I:sensorBlockID=3391
+
+    # The render ID for the sensor block
+    I:sensorBlockRenderID=3390
+}
+
+
+####################
+# general
+####################
+
+general {
+    # Turtle Peripheral Enabled
+    B:turtlePeripheralEnabled=true
+}
+
+
+####################
+# item
+####################
+
+item {
+    # The block ID for the sensor card
+    I:sensorCardID=7486
+
+    # The block ID for the generic item
+    I:sensorUpgradeID=7487
+}
+
+

@@ -1,0 +1,139 @@
+# Configuration file
+
+####################
+# achievements
+####################
+
+achievements {
+    I:idAchievBase=1784
+}
+
+
+####################
+# block
+####################
+
+block {
+    I:idArmorTitaniumBoots=9884
+    I:idArmorTitaniumChestplate=9882
+    I:idArmorTitaniumHelmet=9881
+    I:idArmorTitaniumHelmetBreathable=9885
+    I:idArmorTitaniumLeggings=9883
+    I:idBlock=3400
+    I:idBlockAirCollector=3401
+    I:idBlockAirDistributor=3402
+    I:idBlockAirDistributorActive=3403
+    I:idBlockAirLockFrame=3403
+    I:idBlockAirLockSeal=3405
+    I:idBlockAirPipe=3406
+    I:idBlockCoreBreatheableAir=3407
+    I:idBlockDecorationBlock=3408
+    I:idBlockFallenMeteor=3409
+    I:idBlockLandingPad=3410
+    I:idBlockOre=3411
+    I:idBlockRocketBench=3412
+    I:idBlockSapling2=3413
+    I:idBlockTreasureChest=3414
+    I:idBlockUnlitTorch=3415
+    I:idBlockUnlitTorchLit=3416
+    I:idToolTitaniumAxe=9880
+    I:idToolTitaniumHoe=9879
+    I:idToolTitaniumPickaxe=9877
+    I:idToolTitaniumSpade=9878
+    I:idToolTitaniumSword=9876
+}
+
+
+####################
+# entities
+####################
+
+entities {
+    I:idEntityAntiGravityArrow=160
+    I:idEntityAstroOrb=164
+    I:idEntityBuggy=162
+    I:idEntityEvolvedCreeper=156
+    I:idEntityEvolvedSkeleton=158
+    I:idEntityEvolvedSpider=155
+    I:idEntityEvolvedZombie=157
+    I:idEntityFlag=163
+    I:idEntityGiantWorm=165
+    I:idEntityMeteor=161
+    I:idEntityParaChest=166
+    I:idEntitySpaceship=159
+}
+
+
+####################
+# general
+####################
+
+general {
+    B:"Disable Spaceship Explosion"=false
+    B:"Disable Spaceship Particles"=false
+    B:"Disable Tutorial Item Info Text"=false
+    B:"Disable aluminium ore Gen on Overworld"=false
+    B:"Disable copper ore Gen on Overworld"=false
+    B:"Disable titanium ore Gen on Overworld"=false
+    I:"List of dimensions to generate GC ores in" <
+        0
+     >
+        I:"Ore Generation Factor"=1
+        B:"WASD Map Movement"=true
+        B:moreStars=true
+        B:transparentBreathableAir=true
+}
+
+
+####################
+# gui
+####################
+
+gui {
+    I:idGuiAirDistributor=129
+    I:idGuiBuggyCraftingBench=131
+    I:idGuiGalaxyMap=132
+    I:idGuiRocketCraftingBench=130
+    I:idGuiSpaceshipInventory=133
+    I:idGuiTankRefill=128
+}
+
+
+####################
+# item
+####################
+
+item {
+    I:idArmorOxygenMask=9860
+    I:idArmorSensorGlasses=9862
+    I:idArmorSensorGlassesWithOxygenMask=9863
+    I:idItemAirVent=9868
+    I:idItemAluminumCanister=9867
+    I:idItemBuggyPlacer=9887
+    I:idItemCanvas=9890
+    I:idItemFan=9870
+    I:idItemFlagPlacer=9888
+    I:idItemFlagPole=9893
+    I:idItemGravityBow=9871
+    I:idItemHeavyOxygenTank=9858
+    I:idItemHeavyOxygenTankEmpty=9859
+    I:idItemHeavyPlate=9873
+    I:idItemIngotAluminum=9866
+    I:idItemIngotCopper=9865
+    I:idItemIngotTitanium=9864
+    I:idItemLightOxygenTank=9855
+    I:idItemLightOxygenTankEmpty=9854
+    I:idItemMedOxygenTank=9857
+    I:idItemMedOxygenTankEmpty=9856
+    I:idItemOxygenConcentrator=9869
+    I:idItemOxygenGear=9889
+    I:idItemParachute=9891
+    I:idItemRocketEngine=9872
+    I:idItemRocketFins=9875
+    I:idItemRocketFuelBucket=9892
+    I:idItemRocketNoseCone=9874
+    I:idItemSensorLens=9886
+    I:idItemSpaceship=9861
+}
+
+

@@ -1,0 +1,72 @@
+function getSpeed(speed)
+  if speed >= 1.7 then return "Fastest"
+  elseif speed >= 1.4 then return "Faster"
+  elseif speed >= 1.2 then return "Fast"
+  elseif speed >= 1.0 then return "Normal"
+  elseif speed >= 0.8 then return "Slow"
+  elseif speed >= 0.6 then return "Slower"
+  else return "Slowest" end
+end
+
+function getLifespan(lifespan)
+  if lifespan >= 70 then return "Longest"
+  elseif lifespan >= 60 then return "Longer"
+  elseif lifespan >= 50 then return "Long"
+  elseif lifespan >= 45 then return "Elongated"
+  elseif lifespan >= 40 then return "Normal"
+  elseif lifespan >= 35 then return "Shortened"
+  elseif lifespan >= 30 then return "Short"
+  elseif lifespan >= 20 then return "Shorter"
+  else return "Shortest" end
+end
+
+beeAnalyzer = nil
+beeAnalyzerSide = nil
+for i, side in pairs(rs.getSides()) do
+  if peripheral.getType(side) == "beeAnalyzer" then
+    beeAnalyzer = peripheral.wrap(side)
+    beeAnalyzerSide = side
+    break
+  end
+end
+
+if beeAnalyzer == nil then
+  print("No Bee Analyzer peripheral found")
+  return
+end
+
+print("Using Bee Analyzer peripheral on "..beeAnalyzerSide)
+
+bee = beeAnalyzer.analyze()
+if bee == nil then
+  if beeAnalyzer.isBee() then
+    print("Bee not analyzed")
+  else
+    print("Bee not found")
+  end
+  return
+end
+
+print("")
+print("Type: "..bee["type"]:sub(1, 1):upper()..bee["type"]:sub(2))
+print("Species: "..bee["speciesPrimary"].."-"..bee["speciesSecondary"])
+print("Speed: "..getSpeed(bee["speed"]))
+print("Lifespan: "..getLifespan(bee["lifespan"]))
+print("Temperature: "..bee["temperature"].." (tolerance: "..bee["toleranceTemperature"]..")")
+print("Humidity: "..bee["humidity"].." (tolerance: "..bee["toleranceHumidity"]..")")
+print("Flowers: "..bee["flower"])
+print("Effect: "..bee["effect"])
+print("Territory: "..bee["territory"][1].."x"..bee["territory"][2].."x"..bee["territory"][3])
+print("Fertility: "..bee["fertility"])
+
+specials = {}
+if bee["nocturnal"] then
+  table.insert(specials, "Nocturnal")
+end
+if bee["tolerantFlyer"] then
+  table.insert(specials, "Tolerant Flyer")
+end
+if bee["caveDwelling"] then
+  table.insert(specials, "Cave Dwelling")
+end
+print("Specials: "..table.concat(specials, ", "))

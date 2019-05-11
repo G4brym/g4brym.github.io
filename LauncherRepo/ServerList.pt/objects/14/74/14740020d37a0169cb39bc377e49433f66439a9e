@@ -1,0 +1,34 @@
+# Configuration file
+
+####################
+# block
+####################
+
+block {
+    I:ID.BlockBuildcraft=2851
+    I:ID.BlockCommon=2850
+    I:ID.BlockFactorization=2855
+    I:ID.BlockIndustrialCraft=2852
+    I:ID.BlockSteam=2853
+    I:ID.BlockUniversalElectricty=2854
+}
+
+
+####################
+# ratios
+####################
+
+ratios {
+    I:BuildCraftInternalEnergyPerEachInput=4375
+    I:BuildCraftInternalEnergyPerEachOutput=4375
+    I:FactorizationInternalEnergyPerEachInput=1458
+    I:FactorizationInternalEnergyPerEachOutput=1458
+    I:IndustrialCraftInternalEnergyPerEachInput=1800
+    I:IndustrialCraftInternalEnergyPerEachOutput=1800
+    I:SteamInternalEnergyPerEachInput=875
+    I:SteamInternalEnergyPerEachOutput=875
+    I:UniversalElectricityInternalEnergyPerEachInput=10
+    I:UniversalElectricityInternalEnergyPerEachOutput=10
+}
+
+

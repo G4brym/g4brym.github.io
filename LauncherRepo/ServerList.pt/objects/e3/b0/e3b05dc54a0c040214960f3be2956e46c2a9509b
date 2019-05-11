@@ -1,0 +1,5261 @@
+# Configuration file
+
+####################
+# ancient - vanilla
+####################
+
+"ancient - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# angrybunny - vanilla
+####################
+
+"angrybunny - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# aridwarrior - vanilla
+####################
+
+"aridwarrior - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# azuritegolem - vanilla
+####################
+
+"azuritegolem - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# azuritetomo - vanilla
+####################
+
+"azuritetomo - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# baslisk - vanilla
+####################
+
+"baslisk - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# bat - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"bat - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# blaze - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"blaze - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# bunny - vanilla
+####################
+
+"bunny - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# cadillion - vanilla
+####################
+
+"cadillion - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# caveclops - vanilla
+####################
+
+"caveclops - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# cavecrawler - vanilla
+####################
+
+"cavecrawler - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# cavespider - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"cavespider - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# chicken - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"chicken - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# cori - vanilla
+####################
+
+"cori - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# cori2 - vanilla
+####################
+
+"cori2 - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# cow - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"cow - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# crab - vanilla
+####################
+
+"crab - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# creeper - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"creeper - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# cyclops - vanilla
+####################
+
+"cyclops - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# datticon - vanilla
+####################
+
+"datticon - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# densecadillion - vanilla
+####################
+
+"densecadillion - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# densedemon - vanilla
+####################
+
+"densedemon - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# densos - vanilla
+####################
+
+"densos - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# desertcrawler - vanilla
+####################
+
+"desertcrawler - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# dex - vanilla
+####################
+
+"dex - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/acidhag - divinerpg
+####################
+
+"divinerpg/acidhag - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/alicanto - divinerpg
+####################
+
+"divinerpg/alicanto - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/ayeraco blue - divinerpg
+####################
+
+"divinerpg/ayeraco blue - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/ayeraco green - divinerpg
+####################
+
+"divinerpg/ayeraco green - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/ayeraco purple - divinerpg
+####################
+
+"divinerpg/ayeraco purple - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/ayeraco red - divinerpg
+####################
+
+"divinerpg/ayeraco red - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/ayeraco yellow - divinerpg
+####################
+
+"divinerpg/ayeraco yellow - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/biphron - divinerpg
+####################
+
+"divinerpg/biphron - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/bohemite - divinerpg
+####################
+
+"divinerpg/bohemite - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/captainmerik - divinerpg
+####################
+
+"divinerpg/captainmerik - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/constructor - divinerpg
+####################
+
+"divinerpg/constructor - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/cryptkeeper - divinerpg
+####################
+
+"divinerpg/cryptkeeper - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/cymesoid - divinerpg
+####################
+
+"divinerpg/cymesoid - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/deathcryx - divinerpg
+####################
+
+"divinerpg/deathcryx - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/deathhound - divinerpg
+####################
+
+"divinerpg/deathhound - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/dissiment - divinerpg
+####################
+
+"divinerpg/dissiment - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/dramix - divinerpg
+####################
+
+"divinerpg/dramix - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/dreamwrecker - divinerpg
+####################
+
+"divinerpg/dreamwrecker - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/dungeondemon - divinerpg
+####################
+
+"divinerpg/dungeondemon - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/dungeonprisoner - divinerpg
+####################
+
+"divinerpg/dungeonprisoner - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/duo - divinerpg
+####################
+
+"divinerpg/duo - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/ehu - divinerpg
+####################
+
+"divinerpg/ehu - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/enderspider - divinerpg
+####################
+
+"divinerpg/enderspider - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/endiku - divinerpg
+####################
+
+"divinerpg/endiku - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/ent - divinerpg
+####################
+
+"divinerpg/ent - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/fractite - divinerpg
+####################
+
+"divinerpg/fractite - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/frostarcher - divinerpg
+####################
+
+"divinerpg/frostarcher - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/galroid - divinerpg
+####################
+
+"divinerpg/galroid - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/glacide - divinerpg
+####################
+
+"divinerpg/glacide - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/gorgosion - divinerpg
+####################
+
+"divinerpg/gorgosion - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/hastreus - divinerpg
+####################
+
+"divinerpg/hastreus - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/helio - divinerpg
+####################
+
+"divinerpg/helio - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/hivequeen - divinerpg
+####################
+
+"divinerpg/hivequeen - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/hivesoldier - divinerpg
+####################
+
+"divinerpg/hivesoldier - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/hoverstinger - divinerpg
+####################
+
+"divinerpg/hoverstinger - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/hungerhungry - divinerpg
+####################
+
+"divinerpg/hungerhungry - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/husk - divinerpg
+####################
+
+"divinerpg/husk - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/karos - divinerpg
+####################
+
+"divinerpg/karos - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/kazrotic - divinerpg
+####################
+
+"divinerpg/kazrotic - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/ladyluna - divinerpg
+####################
+
+"divinerpg/ladyluna - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/lheiva - divinerpg
+####################
+
+"divinerpg/lheiva - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/livingstatue - divinerpg
+####################
+
+"divinerpg/livingstatue - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/lorga - divinerpg
+####################
+
+"divinerpg/lorga - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/lorgafligt - divinerpg
+####################
+
+"divinerpg/lorgafligt - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/mandragora - divinerpg
+####################
+
+"divinerpg/mandragora - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/mmlayer1 - divinerpg
+####################
+
+"divinerpg/mmlayer1 - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/mmlayer2 - divinerpg
+####################
+
+"divinerpg/mmlayer2 - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/mmlayer3 - divinerpg
+####################
+
+"divinerpg/mmlayer3 - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/parasecta - divinerpg
+####################
+
+"divinerpg/parasecta - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/quadro - divinerpg
+####################
+
+"divinerpg/quadro - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/raglok - divinerpg
+####################
+
+"divinerpg/raglok - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/rainbour - divinerpg
+####################
+
+"divinerpg/rainbour - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/razorback - divinerpg
+####################
+
+"divinerpg/razorback - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/roamer - divinerpg
+####################
+
+"divinerpg/roamer - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/rollum - divinerpg
+####################
+
+"divinerpg/rollum - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/shadahier - divinerpg
+####################
+
+"divinerpg/shadahier - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/spinebackworm - divinerpg
+####################
+
+"divinerpg/spinebackworm - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/spinebackwormbody - divinerpg
+####################
+
+"divinerpg/spinebackwormbody - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/stonegolem - divinerpg
+####################
+
+"divinerpg/stonegolem - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/templeguardian - divinerpg
+####################
+
+"divinerpg/templeguardian - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/tocaxin - divinerpg
+####################
+
+"divinerpg/tocaxin - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/twins - divinerpg
+####################
+
+"divinerpg/twins - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/vermenous - divinerpg
+####################
+
+"divinerpg/vermenous - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/vermsillion - divinerpg
+####################
+
+"divinerpg/vermsillion - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/wildfire - divinerpg
+####################
+
+"divinerpg/wildfire - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/workshopmerchant - divinerpg
+####################
+
+"divinerpg/workshopmerchant - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/workshoptickerer - divinerpg
+####################
+
+"divinerpg/workshoptickerer - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/wreck - divinerpg
+####################
+
+"divinerpg/wreck - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/zone - divinerpg
+####################
+
+"divinerpg/zone - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# divinerpg/zoragon - divinerpg
+####################
+
+"divinerpg/zoragon - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# enchantwarrior - vanilla
+####################
+
+"enchantwarrior - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# ender watcher - vanilla
+####################
+
+"ender watcher - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# enderdragon - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"enderdragon - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# enderman - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"enderman - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=15.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# endertriplets - vanilla
+####################
+
+"endertriplets - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# energyarcher - vanilla
+####################
+
+"energyarcher - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# energycadillion - vanilla
+####################
+
+"energycadillion - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# energygolem - vanilla
+####################
+
+"energygolem - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# energytomo - vanilla
+####################
+
+"energytomo - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# entbrainyzombie - thaumcraft
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"entbrainyzombie - thaumcraft" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# entfirebat - thaumcraft
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"entfirebat - thaumcraft" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# entgiantbrainyzombie - thaumcraft
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"entgiantbrainyzombie - thaumcraft" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# entgolemclay - thaumcraft
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"entgolemclay - thaumcraft" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# entgolemclayadv - thaumcraft
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"entgolemclayadv - thaumcraft" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# entgolemiron - thaumcraft
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"entgolemiron - thaumcraft" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# entgolemstone - thaumcraft
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"entgolemstone - thaumcraft" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# entgolemstoneadv - thaumcraft
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"entgolemstoneadv - thaumcraft" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# entgolemstraw - thaumcraft
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"entgolemstraw - thaumcraft" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# entgolemtallow - thaumcraft
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"entgolemtallow - thaumcraft" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# entgolemwood - thaumcraft
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"entgolemwood - thaumcraft" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# enthralleddramcryx - vanilla
+####################
+
+"enthralleddramcryx - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# entwisp - thaumcraft
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"entwisp - thaumcraft" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# extrabiomes/scarecrow - extrabiomesxl
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"extrabiomes/scarecrow - extrabiomesxl" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# frost - vanilla
+####################
+
+"frost - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# fyracryx - vanilla
+####################
+
+"fyracryx - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# ghast - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"ghast - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=7.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-20.0
+}
+
+
+####################
+# giant - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"giant - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# golemofrejuvination - vanilla
+####################
+
+"golemofrejuvination - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# hell pig - vanilla
+####################
+
+"hell pig - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# hellspider - divinerpg
+####################
+
+"hellspider - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# ice man - vanilla
+####################
+
+"ice man - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# jackoman - vanilla
+####################
+
+"jackoman - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# junglebat - vanilla
+####################
+
+"junglebat - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# jungledramcryx - vanilla
+####################
+
+"jungledramcryx - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# junglespider - vanilla
+####################
+
+"junglespider - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# karot - vanilla
+####################
+
+"karot - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# kingcrab - vanilla
+####################
+
+"kingcrab - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# lavaslime - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"lavaslime - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=5.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=2.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# leorna - vanilla
+####################
+
+"leorna - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# linkbook - mystcraft
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"linkbook - mystcraft" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=true
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# madivel - vanilla
+####################
+
+"madivel - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# mamormeter - vanilla
+####################
+
+"mamormeter - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# miner - vanilla
+####################
+
+"miner - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# mob - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"mob - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# monster - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"monster - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# moonwolf - vanilla
+####################
+
+"moonwolf - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# mushroomcow - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"mushroomcow - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# mythrilarcher - vanilla
+####################
+
+"mythrilarcher - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# mythrilfiend - vanilla
+####################
+
+"mythrilfiend - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# mythrilgolem - vanilla
+####################
+
+"mythrilgolem - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# nesro - vanilla
+####################
+
+"nesro - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# otherplayers - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"otherplayers - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# ozelot - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"ozelot - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=25.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# paratiku - vanilla
+####################
+
+"paratiku - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# pig - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"pig - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# pigzombie - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"pigzombie - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# portalgun/portal_entityturret - portal gun
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"portalgun/portal_entityturret - portal gun" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# reyvor - vanilla
+####################
+
+"reyvor - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# rotatick - vanilla
+####################
+
+"rotatick - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# samek - vanilla
+####################
+
+"samek - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# scorcher - vanilla
+####################
+
+"scorcher - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# seimer - vanilla
+####################
+
+"seimer - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# serenitytomo - vanilla
+####################
+
+"serenitytomo - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# shark - vanilla
+####################
+
+"shark - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# sheep - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"sheep - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# silverfish - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"silverfish - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# skeleton - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"skeleton - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# slime - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"slime - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=5.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=2.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# snowman - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"snowman - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# soulfiend - vanilla
+####################
+
+"soulfiend - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# soulshards/spawnedblaze - soulshards
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"soulshards/spawnedblaze - soulshards" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# soulshards/spawnedskeleton - soulshards
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"soulshards/spawnedskeleton - soulshards" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# soulshards/spawnedzombie - soulshards
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"soulshards/spawnedzombie - soulshards" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# soulstealer - vanilla
+####################
+
+"soulstealer - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# spider - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"spider - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# squid - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"squid - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-17.0
+}
+
+
+####################
+# testmob - divinerpg
+####################
+
+"testmob - divinerpg" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# theeye - vanilla
+####################
+
+"theeye - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightarcher - vanilla
+####################
+
+"twilightarcher - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightdemon - vanilla
+####################
+
+"twilightdemon - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/bighorn sheep - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/bighorn sheep - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/boggard - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/boggard - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/death tome - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/death tome - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/fire beetle - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/fire beetle - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/firefly - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/firefly - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/forest bunny - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/forest bunny - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/forest raven - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/forest raven - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/forest squirrel - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/forest squirrel - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/hedge spider - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/hedge spider - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/hostile wolf - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/hostile wolf - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/hydra - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/hydra - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/hydrahead - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/hydrahead - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/king spider - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/king spider - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/lich minion - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/lich minion - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/loyal zombie - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/loyal zombie - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/maze slime - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/maze slime - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/mini ghast - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/mini ghast - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/minoshroom - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/minoshroom - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/minotaur - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/minotaur - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/mist wolf - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/mist wolf - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/mosquito swarm - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/mosquito swarm - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/naga - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/naga - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/naga segment - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/naga segment - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/penguin - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/penguin - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/pinch beetle - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/pinch beetle - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/questing ram - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/questing ram - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/redcap - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/redcap - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/redcap sapper - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/redcap sapper - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/redscale broodling - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/redscale broodling - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/skeleton druid - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/skeleton druid - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/slime beetle - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/slime beetle - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/swarm spider - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/swarm spider - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/tiny bird - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/tiny bird - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/tower boss - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/tower boss - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/tower ghast - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/tower ghast - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/tower golem - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/tower golem - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/tower termite - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/tower termite - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/twilight kobold - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/twilight kobold - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/twilight lich - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/twilight lich - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/twilight wraith - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/twilight wraith - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/wild boar - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/wild boar - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# twilightforest/wild deer - the twilight forest
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"twilightforest/wild deer - the twilight forest" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# vamacheron - vanilla
+####################
+
+"vamacheron - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# vatticus - vanilla
+####################
+
+"vatticus - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# verek - vanilla
+####################
+
+"verek - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# villager - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"villager - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# villagergolem - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"villagergolem - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=16.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# watcher - vanilla
+####################
+
+"watcher - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# whale - vanilla
+####################
+
+"whale - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# witch - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"witch - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# witherboss - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"witherboss - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=15.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=5.0
+}
+
+
+####################
+# wolf - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"wolf - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# wraith - vanilla
+####################
+
+"wraith - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# zelus - vanilla
+####################
+
+"zelus - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# zichile - vanilla
+####################
+
+"zichile - vanilla" {
+    B:AppendBabyName=true
+    D:"Baby Scale Modifier"=2.0
+    B:IgnoreThisMob=false
+    S:Name=
+    S:ScaleFactor=22.0
+    S:"Size Modifier"=0.0
+    S:"X Offset"=0.0
+    S:"Y Offset"=-5.0
+}
+
+
+####################
+# zombie - vanilla
+#===================
+# These settings are to help other modders and users to make custom mobs fit correctly in the preview window.
+####################
+
+"zombie - vanilla" {
+    # Append Baby to this entity type if it is a baby.
+    B:AppendBabyName=true
+
+    # If and how much to scale the mob is a baby.
+    D:"Baby Scale Modifier"=2.0
+
+    # Should the portrait display should ignore this entity entirely?
+    B:IgnoreThisMob=false
+
+    # Entities Name to use if overriden.
+    S:Name=
+
+    # How much to upscale the mob. 0 will cause it to disappear entirely. 22 is OK for most mobs
+    S:ScaleFactor=22.0
+
+    # If and how much to scale the mob is it has a size modifier(like slimes)
+    S:"Size Modifier"=0.0
+
+    # How much to nudge the mob display horizontally. 0 is default, negative numbers to move left, positive for right.
+    S:"X Offset"=0.0
+
+    # How much to nudge the mob display vertically. 0 is default, negative numbers to move up, positive for down.
+    S:"Y Offset"=-5.0
+}
+
+

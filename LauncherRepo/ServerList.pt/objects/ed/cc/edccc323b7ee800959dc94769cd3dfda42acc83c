@@ -1,0 +1,37 @@
+railReader = nil
+railReaderSide = nil
+for i, side in pairs(rs.getSides()) do
+  if peripheral.getType(side) == "railReader" then
+    railReader = peripheral.wrap(side)
+    railReaderSide = side
+    break
+  end
+end
+
+if railReader == nil then
+  print("No Rail Reader peripheral found")
+  return
+end
+
+print("Using Rail Reader peripheral on "..railReaderSide)
+print("Waiting for a minecart...")
+
+event, kind, id, data = os.pullEvent("minecart")
+print("")
+print("Got a "..kind.." cart ["..id.."]")
+
+for name, value in pairs(data) do
+  if type(value) == "table" then
+    if value[1] == nil then
+      states = ""
+      for k, v in pairs(value) do
+        if v then states = states..", "..k end
+      end
+      return states:sub(3)
+    else
+      print(name..": "..table.concat(value, ", "))
+    end
+  else
+    print(name..": "..tostring(value))
+  end
+end

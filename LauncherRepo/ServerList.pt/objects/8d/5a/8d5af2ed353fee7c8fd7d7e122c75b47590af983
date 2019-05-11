@@ -1,0 +1,12 @@
+# Configuration file
+
+####################
+# block
+####################
+
+block {
+    # Obsidian Pressure Plate blockId
+    I:obsidianPlate=1555
+}
+
+

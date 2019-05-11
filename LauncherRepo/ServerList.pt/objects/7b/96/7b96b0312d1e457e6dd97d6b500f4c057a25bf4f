@@ -1,0 +1,7 @@
+#Properties for LiteLoader 1.4.7
+#Fri May 10 21:17:40 BST 2019
+search.mods=true
+search.jar=true
+search.classpath=true
+log=stdout
+brand=CWW256 forgot to change this.

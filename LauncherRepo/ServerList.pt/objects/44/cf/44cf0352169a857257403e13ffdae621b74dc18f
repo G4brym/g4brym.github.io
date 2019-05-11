@@ -1,0 +1,36 @@
+# Configuration file
+
+####################
+# block
+####################
+
+block {
+    I:blockPetroleumGenerator=1560
+}
+
+
+####################
+# general
+#===================
+# Oil is multiplied by 10,000 for the total EU/bucket (Default: 10,000 x 3 : 30,000 EU) 
+# Fuel is multiplied by 25,000 for the total EU/bucket (Default: 25,000 x 12 : 300,000 EU)
+####################
+
+general {
+    # Default is 75% of coal burntime - set to zero to disable use of sludge as a fuel
+    I:bituminous_sludge_burntime=1200
+    I:fuel_multiplier=12
+    I:oil_multiplier=3
+}
+
+
+####################
+# item
+####################
+
+item {
+    I:itemBituminousSludge=11855
+    I:itemBituminousSludgeBucket=11856
+}
+
+

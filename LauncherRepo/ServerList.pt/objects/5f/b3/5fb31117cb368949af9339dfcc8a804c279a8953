@@ -1,0 +1,109 @@
+if not term.isColor() then
+  print("This program requires an advanced computer")
+  return
+end
+
+function writeBar(title, amount, maximum)
+  sizeX, sizeY = term.getSize()
+  barWidth = (amount / maximum) * sizeX
+  amountString = amount.."/"..maximum.." EU"
+   
+  for i = 1, sizeX do
+    if i <= barWidth then
+      term.setTextColor(colors.black)
+      term.setBackgroundColor(colors.lime)
+    else
+      term.setTextColor(colors.white)
+      term.setBackgroundColor(colors.black)
+    end
+    if i <= #title then
+      term.write(title:sub(i, i))
+    elseif i > sizeX - #amountString then
+      term.write(amountString:sub(#amountString - (sizeX - i), #amountString - (sizeX - i)))
+    else
+      term.write(" ")
+    end
+  end
+  
+  print("")
+end
+
+nuclearReaders = {}
+nuclearReaderSides = {}
+for i, side in pairs(rs.getSides()) do
+  if peripheral.getType(side) == "nuclearReader" then
+    table.insert(nuclearReaders, peripheral.wrap(side))
+    table.insert(nuclearReaderSides, side)
+  end
+end
+
+if #nuclearReaders < 1 then
+  print("No Nuclear Info Reader peripherals found")
+  return
+end
+
+parallel.waitForAny(
+  function()
+    term.clear()
+    term.setCursorPos(1, 1)
+    print("Using Nuclear Info Reader peripherals on "..table.concat(nuclearReaderSides, ", "))
+    print("Press any key to exit")
+    print("")
+    
+    baseX, baseY = term.getCursorPos()
+    print("")
+    while true do
+      amounts = {}
+      maximums = {}
+      
+      for i, nuclearReader in pairs(nuclearReaders) do
+        for slot = 1, nuclearReader.getSlots() do
+          id, state, title, info = nuclearReader.get(slot)
+          if id == "00000000-0000-0000-0000-000000000003" then
+            localAmounts = {}
+            localMaximums = {}
+            for k, v in pairs(info) do
+              if k:sub(1, 1) == "_" then
+                subKey = k:sub(3)
+                if subKey == "energy" then
+                  amounts[#amounts] = v
+                  localAmounts[tonumber(k:sub(2, 2))] = v
+                elseif subKey == "maxStorage" then
+                  maximums[#maximums] = v
+                  localMaximums[tonumber(k:sub(2, 2))] = v
+                end
+              end
+            end
+            
+            for i = 0, #localAmounts do
+              writeBar(title.." #"..(i + 1), localAmounts[i], localMaximums[i])
+            end
+          elseif id == "00000000-0000-0000-0000-000000000002" then
+            amounts[#amounts] = info["energyL"]
+            maximums[#maximums] = info["maxStorageL"]
+            
+            writeBar(title, info["energyL"], info["maxStorageL"])
+          end
+          
+          sleep(0)
+        end
+      end
+      
+      term.setCursorPos(baseX, baseY)
+      amountsum = 0
+      maximumsum = 0
+      if #amounts > 0 then
+        for i = 0, #amounts do
+          amountsum = amountsum + amounts[i]
+          maximumsum = maximumsum + maximums[i]
+        end
+      end
+      writeBar("Total Energy", amountsum, maximumsum)
+      
+      sleep(1)
+    end
+  end,
+  function()
+    os.pullEvent("char")
+  end
+)

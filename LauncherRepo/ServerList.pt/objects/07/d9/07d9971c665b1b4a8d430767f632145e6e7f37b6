@@ -1,0 +1,150 @@
+# Configuration file
+
+####################
+# appeng
+####################
+
+appeng {
+    B:enableBCtoMEChipRecipe=false
+    B:enableGrinder=true
+    B:enableLogging=false
+    B:logPowerUsage=false
+    B:useBuildcraftChips=false
+    ####################
+    # options
+    #===================
+    # Options for Applied Energistics as a whole.
+    # oreDepthModifier - This feature is deprecated, and will be removed in a future revision.
+    ####################
+
+    options {
+        B:enableVersionChecker=true
+        B:enableWorldGenQuartz=true
+        I:ore.densityModifier=0
+        I:ore.depthModifier=0
+    }
+
+    ####################
+    # bcintegration
+    ####################
+
+    bcintegration {
+        B:enableBCtoMEChipRecipe=false
+        B:useBuildcraftChips=false
+    }
+
+    ####################
+    # vesionchecker
+    ####################
+
+    vesionchecker {
+        S:lastStarted=jviivd17
+    }
+
+}
+
+
+####################
+# block
+#===================
+# BlockID's for blocks added by Applied Energistics ( these are not shifted. +256 for Ingame ).
+####################
+
+block {
+    I:appeng.blockMulti=2510
+    I:appeng.blockMulti2=2511
+    I:appeng.blockWorld=2512
+}
+
+
+####################
+# features
+#===================
+# Enable / Disable AE Features.
+####################
+
+features {
+    B:enableEntropyAcc=true
+    B:enableGrinder=true
+    B:enableSpaceClickMoving=true
+    B:enableVibrationCata=true
+}
+
+
+####################
+# graphics
+#===================
+# Adjust Visual quality of complicated rendering.
+####################
+
+graphics {
+    B:gfxCableAnimation=true
+    B:gfxDrivesHighDef=true
+}
+
+
+####################
+# item
+#===================
+# ItemID's for items added by Applied Energistics.
+####################
+
+item {
+    I:appeng.itemMulti=4205
+    I:appeng.materialID=4206
+    I:appeng.toolEntropyAccelerator=4207
+    I:appeng.toolQuartzAxe=4209
+    I:appeng.toolQuartzHoe=4210
+    I:appeng.toolQuartzKnife=4115
+    I:appeng.toolQuartzPick=4212
+    I:appeng.toolQuartzShovel=4211
+    I:appeng.toolQuartzSword=4213
+    I:appeng.toolQuartzWrench=4214
+    I:appeng.toolVibrationCatalyst=4208
+}
+
+
+####################
+# logging
+#===================
+# Enable or disable various logging features, enabling logging features will create large logs.
+####################
+
+logging {
+    B:enableLogging=false
+    B:logCrafting=false
+    B:logGrinderOres=false
+    B:logPowerUsage=false
+}
+
+
+####################
+# me
+####################
+
+me {
+    ####################
+    # options
+    #===================
+    # Options for Mass Energy Components.
+    # largeDrives - This feature is deprecated, and will be removed in a future revision.
+    ####################
+
+    options {
+        D:base.wireless.range=16.0
+        B:largeDrives=false
+        B:largeStorageCells=true
+        I:max.wireless.extenderBonus=1
+        I:max.wireless.extenders=16
+        D:powerUsageMultiplier=1.0
+        B:requirePower=true
+        B:terminalAutoSearch=true
+        S:terminalSortBy=Size
+        S:terminalSortDirection=ASC
+        B:terminalUseLargeFont=false
+        S:terminalViewItems=ALL
+    }
+
+}
+
+

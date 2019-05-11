@@ -1,0 +1,29 @@
+note = nil
+noteSide = nil
+for i, side in pairs(rs.getSides()) do
+  if peripheral.getType(side) == "note" then
+    note = peripheral.wrap(side)
+    noteSide = side
+    break
+  end
+end
+
+if note == nil then
+  print("No Note peripheral found")
+  return
+end
+
+print("Using Note peripheral on "..noteSide)
+print("Press any key to stop")
+
+parallel.waitForAny(
+  function()
+    while true do
+      note.playNote(math.random(0, 4), math.random(0, 24))
+      sleep(0.25)
+    end
+  end,
+  function()
+    os.pullEvent("char")
+  end
+)

@@ -1,0 +1,25 @@
+gateReaders = {}
+gateReaderSides = {}
+for i, side in pairs(rs.getSides()) do
+  if peripheral.getType(side) == "gateReader" then
+    table.insert(gateReaders, peripheral.wrap(side))
+    table.insert(gateReaderSides, side)
+    break
+  end
+end
+
+if #gateReaders < 1 then
+  print("No Gate Reader peripherals found")
+  return
+end
+
+print("Using Gate Reader peripherals on "..table.concat(gateReaderSides, ", "))
+
+for key, gateReader in pairs(gateReaders) do
+  print("")
+  print("== "..gateReaderSides[key].." ==")
+  
+  for name, value in pairs(gateReader.get()) do
+    print(name..": "..tostring(value))
+  end
+end

@@ -1,0 +1,53 @@
+# Configuration file
+
+####################
+# block
+####################
+
+block {
+    I:block.plinth=580
+    ####################
+    # feature
+    ####################
+
+    feature {
+        B:plinth.enable=true
+    }
+
+}
+
+
+####################
+# general
+####################
+
+general {
+    # This will generate a default List file depending on your list setting. This file will ONLY generate if it does not exist.
+    B:lexicon.generateDefaultList=true
+
+    # If this setting is changed to false, a Blacklist model will instead be enforced.
+    B:lexicon.whitelist=true
+    S:version=3.0.4.0
+}
+
+
+####################
+# item
+####################
+
+item {
+    I:item.artifact=6002
+    I:item.wrench=6001
+    ####################
+    # feature
+    ####################
+
+    feature {
+        B:lexicon.enable=true
+        B:wrench.enable=true
+        B:wrench.logic2=false
+    }
+
+}
+
+

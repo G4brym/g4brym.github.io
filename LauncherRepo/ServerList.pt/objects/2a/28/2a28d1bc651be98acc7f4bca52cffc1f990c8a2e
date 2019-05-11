@@ -1,0 +1,98 @@
+# Configuration file
+
+####################
+# arrowconfig
+####################
+
+arrowconfig {
+    S:"CraftedStackSize Confusing Arrow"=4
+    S:"CraftedStackSize Dirt Arrow"=4
+    S:"CraftedStackSize Exploding Arrow"=4
+    S:"CraftedStackSize Fire Arrow"=4
+    S:"CraftedStackSize Frost Arrow"=4
+    S:"CraftedStackSize Penetrating Arrow"=4
+    S:"CraftedStackSize Rope Arrow"=4
+    S:"CraftedStackSize Seed Arrow"=4
+    S:"CraftedStackSize Slime Arrow"=4
+    S:"CraftedStackSize Torch Arrow"=4
+    S:"CraftedStackSize Warp Arrow"=4
+    S:"Damage Confusing Arrow"=4
+    S:"Damage Dirt Arrow"=4
+    S:"Damage Exploding Arrow"=4
+    S:"Damage Fire Arrow"=4
+    S:"Damage Frost Arrow"=4
+    S:"Damage Penetrating Arrow"=4
+    S:"Damage Rope Arrow"=4
+    S:"Damage Seed Arrow"=4
+    S:"Damage Slime Arrow"=4
+    S:"Damage Torch Arrow"=4
+    S:"Damage Warp Arrow"=4
+}
+
+
+####################
+# "arrows enabled"
+####################
+
+""arrows enabled"" {
+    B:"Confusing Arrow"=true
+    B:"Dirt Arrow"=true
+    B:"Exploding Arrow"=true
+    B:"Fire Arrow"=true
+    B:"Frost Arrow"=true
+    B:"Penetrating Arrow"=true
+    B:"Rope Arrow"=true
+    B:"Seed Arrow"=true
+    B:"Slime Arrow"=true
+    B:"Torch Arrow"=true
+    B:"Warp Arrow"=true
+}
+
+
+####################
+# block
+####################
+
+block {
+    I:blockIdGrapplingHook=4090
+    I:blockIdRope=4091
+    I:blockIdRopeDJRoslin=4092
+    I:blockIdZipLineAnchor=4093
+}
+
+
+####################
+# general
+####################
+
+general {
+    B:"Equipped Bow Tool Tip"=true
+    I:"Rope Texture"=1
+    I:"max HookShot Rope Length"=50
+}
+
+
+####################
+# item
+####################
+
+item {
+    I:itemIdArrowConfusion=31540
+    I:itemIdArrowDirt=31539
+    I:itemIdArrowExplosion=31538
+    I:itemIdArrowFire=31537
+    I:itemIdArrowGrass=31536
+    I:itemIdArrowIce=31535
+    I:itemIdArrowLaser=31534
+    I:itemIdArrowRope=31533
+    I:itemIdArrowSlime=31532
+    I:itemIdArrowTorch=31531
+    I:itemIdArrowWarp=31530
+    I:itemIdGrapplingHook=31542
+    I:itemIdHookShot=31529
+    I:itemIdHookshotCartridge=31528
+    I:itemIdRope=31543
+    I:itemIdRopesPlusBow=31541
+}
+
+

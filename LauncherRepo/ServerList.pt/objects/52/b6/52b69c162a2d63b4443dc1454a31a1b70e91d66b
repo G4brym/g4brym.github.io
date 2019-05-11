@@ -1,0 +1,32 @@
+# Configuration file
+
+####################
+# block
+####################
+
+block {
+    I:controller=4095
+    I:extender=4094
+}
+
+
+####################
+# extenders
+####################
+
+extenders {
+    # Range of Extenders to connect controllers (-1 no limit)
+    I:range=32
+}
+
+
+####################
+# item
+####################
+
+item {
+    I:itemsBase=31743
+    I:waferRaw=31742
+}
+
+
