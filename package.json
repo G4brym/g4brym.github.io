@@ -1,0 +1,35 @@
+{
+  "name": "www.technic.pt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "css": "npm-run-all --sequential compile minify",
+    "compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 resources/scss/entry.scss resources/css/styles.css",
+    "minify": "cleancss --level 2 --output resources/css/styles.css resources/css/styles.css",
+    "watch": "nodemon --watch resources/scss -e scss -x \"npm run compile\""
+  },
+  "dependencies": {
+    "bootstrap-vue": "^2.0.0",
+    "nodemon": "^1.19.2",
+    "npm-run-all": "^4.1.5",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^3.1.0"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^4.3.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
