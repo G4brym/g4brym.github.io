@@ -1,6 +1,10 @@
 .post-block {
     break-inside: avoid;
 
+    a[onclick] {
+        cursor: pointer;
+    }
+
     > a {
         display: block;
         overflow: hidden;
