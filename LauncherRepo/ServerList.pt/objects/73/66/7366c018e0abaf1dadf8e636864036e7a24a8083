@@ -1,7 +1,0 @@
-# allowUpdateCheck (boolean:true) -- Set to true to allow checking for updates for ALL of my mods, false to disable
-# allowDebugOutput (boolean:false)
-# 
-# Fri May 10 21:17:29 BST 2019
-allowDebugOutput=false
-allowUpdateCheck=true
-checksum=1wk
