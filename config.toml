@@ -1,0 +1,13 @@
+baseURL = "https://www.g4brym.ovh/"
+languageCode = "en-us"
+title = "Gabriel Massadas Portfolio"
+theme = "hyde"
+
+[Menus]
+  main = [
+      {Name = "Github", URL = "https://github.com/g4brym/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/gabriel-massadas/"}
+  ]
+
+[params]
+  description = "Python developer mainly in Serverless and Django, based in Lisbon"

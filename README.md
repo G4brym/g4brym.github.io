@@ -1,4 +1,4 @@
 # g4brym.github.io
-This is my porfolio
+This is my portfolio
 
-[Check it our here](https://www.technic.pt)
+[Check it our here](https://www.g4brym.ovh)
