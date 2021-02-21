@@ -1,15 +1,20 @@
 ---
 title: "GetCompany.info Repository"
-summary: "This project was an online database, where anyone could search for Portuguese companies"
+description: "This project was an online database, where anyone could search for Portuguese companies"
 image: "/images/projects/companies-repository/index.png"
+ogtype: article
+ogimage: "/images/projects/companies-repository/index.png"
 date: 2021-02-21T19:29:41Z
 draft: false
 slug: "companies-repository"
 ---
 
 ## 1. Project Information's
-This was a side project developed only for personal use, but as it was beginning to get indexed by Google it started
-receiving a lot of daily people actually searching for companies.
+This project was an online database, where anyone could search for Portuguese companies through various ways,
+including related companies by activities.
+
+This was a side project developed only for personal use.
+As it was beginning to get indexed by Google it started receiving a lot of daily people searching for companies.
 
 This project was later shutdown and now it is available on [Github](https://github.com/G4brym/GetCompany.info).
 
