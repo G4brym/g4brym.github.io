@@ -17,7 +17,10 @@
       <pubDate>Sun, 21 Feb 2021 19:29:41 +0000</pubDate>
       
       <guid>https://g4brym.ovh/projects/companies-repository/</guid>
-      <description>This project was an online database, where anyone could search for Portuguese companies</description>
+      <description>1. Project Information&amp;rsquo;s This project was an online database, where anyone could search for Portuguese companies through various ways, including related companies by activities.
+This was a side project developed only for personal use. As it was beginning to get indexed by Google it started receiving a lot of daily people searching for companies.
+This project was later shutdown and now it is available on Github.
+The source code for this project doesn&amp;rsquo;t include any information&amp;rsquo;s about the companies, you have to get it however you want and add it to the database by yourself.</description>
     </item>
     
   </channel>
