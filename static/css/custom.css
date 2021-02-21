@@ -8,3 +8,15 @@ html {
   line-height: 1;
   font-weight: 700;
 }
+
+.post-image {
+  display: block;
+}
+
+.post-image > img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top center;
+  margin: 0 0 .5rem 0;
+}
