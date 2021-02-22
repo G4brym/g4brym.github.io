@@ -29,6 +29,7 @@ html {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+  margin-bottom: 0;
 }
 .sidebar-nav > li {
   padding-right: 10px;
@@ -57,10 +58,6 @@ html {
   .post-image > img {
     height: 300px;
   }
-}
-
-.sidebar-sticky p:last-of-type {
-  margin-bottom: 0;
 }
 
 .content {
