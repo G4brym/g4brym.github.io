@@ -6,7 +6,8 @@ theme = "hyde"
 [Menus]
   main = [
       {Name = "Github", URL = "https://github.com/g4brym/"},
-      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/gabriel-massadas/"}
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/gabriel-massadas/"},
+      {Name = "Medium", URL = "https://medium.com/@g4brym"}
   ]
 
 [params]
