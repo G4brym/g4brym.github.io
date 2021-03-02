@@ -1,4 +1,4 @@
-baseURL = "https://g4brym.ovh/"
+baseURL = "https://gm.uuid.pt/"
 languageCode = "en-us"
 title = "Gabriel Massadas Portfolio"
 theme = "hyde"
@@ -7,6 +7,7 @@ theme = "hyde"
   main = [
       {Name = "Github", URL = "https://github.com/g4brym/"},
       {Name = "LinkedIn", URL = "https://www.linkedin.com/in/gabriel-massadas/"},
+      {Name = "Keybase", URL = "https://keybase.io/g4brym"},
       {Name = "Medium", URL = "https://medium.com/@g4brym"}
   ]
 
