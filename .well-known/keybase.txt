@@ -1,0 +1,53 @@
+https://keybase.io/g4brym
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gm.uuid.pt
+  * I am g4brym (https://keybase.io/g4brym) on keybase.
+  * I have a public key ASB-eWjNb3-9OjbzcDbWEBD0y0eWSpm4ncgmTjmYYMDrKQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207e7968cd6f7fbd3a36f37036d61010f4cb47964a99b89dc8264e399860c0eb290a",
+      "host": "keybase.io",
+      "kid": "01207e7968cd6f7fbd3a36f37036d61010f4cb47964a99b89dc8264e399860c0eb290a",
+      "uid": "8fc6a4578a23b841f7c060a585b0cd19",
+      "username": "g4brym"
+    },
+    "merkle_root": {
+      "ctime": 1614702683,
+      "hash": "3b008816189902b996b0144247786bc48803fa82ed2e3b3722ce420cda34ea501b1c6e84ce4b7330b9e6fa8528f85942c3d434cb2cf13b00c129d0858cdc55d7",
+      "hash_meta": "7ce498b77fdf18937b24245a5b3bdebc26ddef4ee61b314294005477c532d1e2",
+      "seqno": 19270112
+    },
+    "service": {
+      "entropy": "u0mNMHvoDtOcIyDSXZRtsqoZ",
+      "hostname": "gm.uuid.pt",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.1"
+  },
+  "ctime": 1614702729,
+  "expire_in": 504576000,
+  "prev": "14fcbc2430d2ba2b578ac7a2df43e54bee86b23e428591d4c4f4d69651878d1b",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgfnlozW9/vTo283A21hAQ9MtHlkqZuJ3IJk45mGDA6ykKp3BheWxvYWTESpcCF8QgFPy8JDDSuitXisei30PlS+6Gsj5ChZHUxPTWllGHjRvEIJHBKhPlOt3s5d30OEX80ct+3NrZfrPlCpwUF2KqnwqpAgHCo3NpZ8RAOcsbZulDimYaYQnhUfsMTM4lBpVPhfD2h9ByCZdszdNIdDSuqXMR+710H4zwL8vht2ml0fSNvbOJQkzeX+jJBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPGJNi6TBV7DVvlAd9pwYwXVeFwrblDCwEhQJMFKHOTho3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/g4brym
