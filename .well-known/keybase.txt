@@ -3,7 +3,7 @@ https://keybase.io/g4brym
 
 I hereby claim:
 
-  * I am an admin of https://technic.pt
+  * I am an admin of https://massadas.com
   * I am g4brym (https://keybase.io/g4brym) on keybase.
   * I have a public key ASB-eWjNb3-9OjbzcDbWEBD0y0eWSpm4ncgmTjmYYMDrKQo
 
@@ -19,14 +19,14 @@ To do so, I am signing this object:
       "username": "g4brym"
     },
     "merkle_root": {
-      "ctime": 1615632888,
-      "hash": "582573a90a1505e0bf9829fe337bf8c4db293785435970b9bf03f17f5ade4031927d08198ae99f4809ca826b9e19009357ed3b51acb13075a9be7e46160c02bf",
-      "hash_meta": "e005c91b96ccac46a9885e2b0422f12509c2a92f97538aee53f824172917ce83",
-      "seqno": 19363089
+      "ctime": 1616763164,
+      "hash": "1b1037cc61871f9255e6df7d268415c58576c05f16bd867596d5b7fc6bb5f33e21835f0e7cdaa9be88d07c6d4d4ce8b0ccf7c3aa89ea7638229b0e493493090c",
+      "hash_meta": "7851aed533012a5a5d51d77c0aa5b82df95e2c68d00d29cc3285b769a05dda41",
+      "seqno": 19475447
     },
     "service": {
-      "entropy": "3sWS51RekexllmrfBa0Wnruy",
-      "hostname": "technic.pt",
+      "entropy": "WmIzkgI3WdUzi0COqALwshUt",
+      "hostname": "massadas.com",
       "protocol": "https:"
     },
     "type": "web_service_binding",
@@ -36,16 +36,16 @@ To do so, I am signing this object:
     "name": "keybase.io go client",
     "version": "5.6.1"
   },
-  "ctime": 1615632923,
+  "ctime": 1616763170,
   "expire_in": 504576000,
-  "prev": "37926fe348c1e399bf1d657b10aa6e642c6cedc410c445f3fca5050a5afc22ed",
-  "seqno": 26,
+  "prev": "be7b3597c69047320cd65928304a1e6f60ca1ebbe6d6f31f13d636edac2bae68",
+  "seqno": 29,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgfnlozW9/vTo283A21hAQ9MtHlkqZuJ3IJk45mGDA6ykKp3BheWxvYWTESpcCGsQgN5Jv40jB45m/HWV7EKpuZCxs7cQQxEXz/KUFClr8Iu3EIPLqhGpOqaTwFYjn0uoZ1hnaEaP1QGF5nBLvuUWO734GAgHCo3NpZ8RAyFiM3xWSygYW/ZAVJlcvCbL4hnJY8pNbDEzyqXW+cdQvdF9MeKk0M0Ps4FbkwueFH+cQD76J1+EsJMHfrHJYA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKmXPs5UBtudYqbBFQiIofsSxCYqmb2RWJGAHFeb8HYco3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgfnlozW9/vTo283A21hAQ9MtHlkqZuJ3IJk45mGDA6ykKp3BheWxvYWTESpcCHcQgvns1l8aQRzIM1lkoMEoeb2DKHrvm1vMfE9Y27awrrmjEIL1xwzVHUCyHuNZE6QoKK7mRnnRJwtAb6Ih94jolpdfjAgHCo3NpZ8RAbhG31O4o7fg7A4GBCqqlCUHXz9nRP8cY6ZOIE7l9+j0GHRQFa/kv7jMFcnhqaMz4/boG/lVBfNsy20r6/yi9CahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILayk5My+RfwG/5KnQ3sRqBIe/mpgUX69k24qjrui4Pno3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
