@@ -1,6 +1,6 @@
 # g4brym.github.io
 This is my personal portfolio
-[Check it our here](https://gm.uuid.pt)
+[Check it our here](https://massadas.com)
 
 
 ## Git flow
