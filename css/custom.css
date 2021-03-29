@@ -64,3 +64,9 @@ html {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+@media (min-width: 64em) {
+  .content {
+    max-width: 40rem;
+  }
+}
