@@ -10,11 +10,11 @@ slug: "logistics"
 ---
 
 ## 1. Project Information's
-I was contracted during my first year in an under graduation, to automate problems and speed up processes inside
-a local logistics company.
+During my first year of under graduation, I was contracted by a company to solve problems and speed up processes 
+inside a local logistics company.
 
-The main problem the company had was that every waybill ever handled by them was in a single excel file with 
-thousands of excel functions and automation. 
+The biggest problem in the company was how they handled every waybill, because they were 
+restrained to a single Excel file that stored thousands of Excel functions, automation and waybill records.
 And because they were just a local company, that meant that they had to integrate with other bigger logistics 
 companies, that sent them every morning what packages they were sending and where does packages needed to be at 
 the end of the day.
