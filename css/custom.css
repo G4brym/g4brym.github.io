@@ -70,3 +70,7 @@ html {
     max-width: 40rem;
   }
 }
+
+.post > h1 {
+  margin-top: 0;
+}
