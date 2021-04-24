@@ -2,6 +2,7 @@ baseURL = "https://massadas.com/"
 languageCode = "en-us"
 title = "Gabriel Massadas Portfolio"
 theme = "hyde"
+canonifyURLs = true
 
 [Menus]
   main = [

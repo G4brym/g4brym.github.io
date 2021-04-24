@@ -1,5 +1,5 @@
 ---
-title: "Logistics Management Software"
+title: "Logistics Management"
 description: "This project helped manage and speed up processes inside a local logistics company"
 image: "/images/projects/logistics/index.jpg"
 ogtype: article

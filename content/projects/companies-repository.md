@@ -1,5 +1,5 @@
 ---
-title: "GetCompany.info Repository"
+title: "Companies Repository"
 description: "This project was an online database, where anyone could search for Portuguese companies"
 image: "/images/projects/companies-repository/index.png"
 ogtype: article
