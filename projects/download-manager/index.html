@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <link rel="canonical" href="https://massadas.com/projects/download-manager/" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="generator" content="Hugo 0.68.3" />
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Download Manager &middot; Gabriel Massadas Portfolio</title>
+    <meta name="description" content="This project is a file downloader and scheduler with an api interface" />
+
+    
+    <meta property="og:type" content="article">
+    
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="https://massadas.com/images/projects/download-manager/index.jpg">
+    <meta property="twitter:image" content="https://massadas.com/images/projects/download-manager/index.jpg">
+
+    
+    <meta property="og:title" content="Download Manager">
+    <meta property="twitter:title" content="Download Manager">
+
+    
+    <link type="text/css" rel="stylesheet" href="https://massadas.com/css/print.css" media="print">
+    <link type="text/css" rel="stylesheet" href="https://massadas.com/css/poole.css">
+    <link type="text/css" rel="stylesheet" href="https://massadas.com/css/syntax.css">
+    <link type="text/css" rel="stylesheet" href="https://massadas.com/css/hyde.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="https://massadas.com/css/custom.css">
+
+
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://massadas.com/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="https://massadas.com/favicon.png">
+
+    
+    
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+    <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+            <a href="https://massadas.com/"><h1>Gabriel Massadas Portfolio</h1></a>
+            <p class="lead">
+                 Python developer mainly in Serverless and Django, based in Lisbon 
+            </p>
+        </div>
+
+        <nav>
+            <ul class="sidebar-nav">
+                <li><a href="https://massadas.com/">Home</a> </li>
+                <li><a href="https://github.com/g4brym/"> Github </a></li><li><a href="https://keybase.io/g4brym"> Keybase </a></li><li><a href="https://www.linkedin.com/in/gabriel-massadas/"> LinkedIn </a></li><li><a href="https://medium.com/@g4brym"> Medium </a></li>
+            </ul>
+        </nav>
+
+
+    </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+    <h1>Download Manager</h1>
+    <div class="post-image">
+        <img src="https://massadas.com/images/projects/download-manager/index.jpg" alt="Download Manager">
+    </div>
+
+    <h2 id="1-project-informations">1. Project Information&rsquo;s</h2>
+<p>This project is a file downloader and scheduler, just like <a href="https://github.com/pyload/pyload">pyload</a>, but it was build from
+the start to be docker native and to have an api interface to schedule downloads automatically.</p>
+<p>This project is using the <a href="https://github.com/tiangolo/fastapi">FastAPI</a> framework, which automatically builds a swagger
+documentation based on the api endpoints. This brings to this project a simple web interface that
+also allows you to schedule downloads from your browser without having to make an api request using postman.</p>
+<p>You can see an example of the <a href="https://g4brym.github.io/docker-download-manager/">swagger documentation here</a>.</p>
+<h2 id="2-features">2. Features</h2>
+<ul>
+<li>Automatically download files to the local file system</li>
+<li>Portable (using docker)</li>
+<li>File download authentication using custom headers</li>
+<li>Schedule files using the Swagger interface</li>
+<li>Schedule files using the API</li>
+<li>Easy file identification (due to the custom hash function as primary key, see below)</li>
+<li>Automatically retry downloads (5 times by default, but can be edited in env vars)</li>
+<li>Manually retry files after all the automatically retries have failed</li>
+<li>Edit file download url or headers after you have scheduled it for download</li>
+<li>API authentication</li>
+</ul>
+<h3 id="21-file-identification">2.1 File identification</h3>
+<p>This project doesn&rsquo;t use the typical incremental id for file identification because that would mean that the system
+that is communicating with this api has to save that, in order to be able to check file status afterward.</p>
+<p>Instead of that, we decided to use an MD5 hash of the file path + filename, this makes it much easier to
+retry a download or check if it is already done without having to search by name or save the id of the download.
+For reference everytime, you schedule a download the response will always have the file hash in case you want to save it
+or compare it with your local hash.</p>
+<p>This is also a good measure because it makes sure that we don&rsquo;t ever download the same file twice, because if you try to
+schedule a new download using the same path and name, this project will only update the download url and headers of the
+previous schedule.</p>
+<h3 id="22-file-paths">2.2 File path&rsquo;s</h3>
+<p>Because this run&rsquo;s inside a docker container, when scheduling a new download, you should always use relative paths.
+Then when saving the file we will append that to the downloads volume.</p>
+<h2 id="3-usage">3. Usage</h2>
+<p>Here are some example snippets to help you get started creating a container.</p>
+<h3 id="docker">docker</h3>
+<pre><code>docker create \
+  --name=manager \
+  --net=host \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e API_KEY=some_random_key \
+  -v /path/to/config:/config \
+  -v /path/to/downloads:/downloads \
+  --restart unless-stopped \
+  g4brym/download-manager
+</code></pre><h3 id="docker-compose">docker-compose</h3>
+<p>Compatible with docker-compose v2 schemas.</p>
+<pre><code>version: &quot;2.1&quot;
+services:
+  manager:
+    image: g4brym/download-manager
+    container_name: manager
+    network_mode: host
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - API_KEY=some_random_key
+    volumes:
+      - /path/to/config:/config
+      - /path/to/downloads:/downloads
+    restart: unless-stopped
+</code></pre><h2 id="4-parameters">4. Parameters</h2>
+<p>Container images are configured using parameters passed at runtime (such as those above). These parameters are separated by a colon and indicate <code>&lt;external&gt;:&lt;internal&gt;</code> respectively. For example, <code>-p 8000:80</code> would expose port <code>80</code> from inside the container to be accessible from the host&rsquo;s IP on port <code>8000</code> outside the container.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Parameter</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><code>--net=host</code></td>
+<td>Use Host Networking</td>
+</tr>
+<tr>
+<td align="center"><code>-e PUID=1000</code></td>
+<td>for UserID - see below for explanation</td>
+</tr>
+<tr>
+<td align="center"><code>-e PGID=1000</code></td>
+<td>for GroupID - see below for explanation</td>
+</tr>
+<tr>
+<td align="center"><code>-e API_KEY=some_random_key</code></td>
+<td>Api key to interact with the server</td>
+</tr>
+<tr>
+<td align="center"><code>-e MAX_RETRIES=5</code></td>
+<td>This is the number of retries the project will try to automatically download a file</td>
+</tr>
+<tr>
+<td align="center"><code>-v /config</code></td>
+<td>Contains all configuration and generated files for the application to run, including the sqlite db</td>
+</tr>
+<tr>
+<td align="center"><code>-v /downloads</code></td>
+<td>Where your completed downloads should go</td>
+</tr>
+</tbody>
+</table>
+<h2 id="5-user--group-identifiers">5. User / Group Identifiers</h2>
+<p>When using volumes (<code>-v</code> flags) permissions issues can arise between the host OS and the container, we avoid this issue
+by allowing you to specify the user <code>PUID</code> and group <code>PGID</code>.</p>
+<p>Ensure any volume directories on the host are owned by the same user you specify and any permissions issues will vanish
+like magic.</p>
+<p>In this instance <code>PUID=1000</code> and <code>PGID=1000</code>, to find yours use <code>id user</code> as below:</p>
+<pre><code>  $ id username
+    uid=1000(dockeruser) gid=1000(dockergroup) groups=1000(dockergroup)
+</code></pre><h2 id="6-api-documentation--swagger-ui">6. API Documentation / Swagger UI</h2>
+<p>API Documentation is available in the OpenAPI format with Swagger UI
+<a href="https://g4brym.github.io/docker-download-manager/">Here</a></p>
+
+</div>
+
+
+    </main>
+
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "70d1ec6773d4485784fea13c22dd275e"}'></script>
+  </body>
+</html>

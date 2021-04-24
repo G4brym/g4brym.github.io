@@ -12,7 +12,17 @@
     
     
     <item>
-      <title>Logistics Management Software</title>
+      <title>Download Manager</title>
+      <link>https://massadas.com/projects/download-manager/</link>
+      <pubDate>Mon, 29 Mar 2021 18:14:21 +0000</pubDate>
+      
+      <guid>https://massadas.com/projects/download-manager/</guid>
+      <description>1. Project Information&amp;rsquo;s This project is a file downloader and scheduler, just like pyload, but it was build from the start to be docker native and to have an api interface to schedule downloads automatically.
+This project is using the FastAPI framework, which automatically builds a swagger documentation based on the api endpoints. This brings to this project a simple web interface that also allows you to schedule downloads from your browser without having to make an api request using postman.</description>
+    </item>
+    
+    <item>
+      <title>Logistics Management</title>
       <link>https://massadas.com/projects/logistics/</link>
       <pubDate>Mon, 29 Mar 2021 18:14:21 +0000</pubDate>
       
@@ -22,7 +32,7 @@ The biggest problem in the company was how they handled every waybill, because t
     </item>
     
     <item>
-      <title>GetCompany.info Repository</title>
+      <title>Companies Repository</title>
       <link>https://massadas.com/projects/companies-repository/</link>
       <pubDate>Sun, 21 Feb 2021 19:29:41 +0000</pubDate>
       
