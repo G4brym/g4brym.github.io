@@ -6,10 +6,20 @@
     <description>Recent content in Projects on Gabriel Massadas Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Mar 2021 18:14:21 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Apr 2021 13:44:21 +0000</lastBuildDate>
     
 	<atom:link href="https://massadas.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Download Manager</title>
+      <link>https://massadas.com/projects/download-manager/</link>
+      <pubDate>Sat, 24 Apr 2021 13:44:21 +0000</pubDate>
+      
+      <guid>https://massadas.com/projects/download-manager/</guid>
+      <description>1. Project Information&amp;rsquo;s This project is a file downloader and scheduler, just like pyload, but it was build from the start to be docker native and to have an api interface to schedule downloads automatically.
+This project is using the FastAPI framework, which automatically builds a swagger documentation based on the api endpoints. This brings to this project a simple web interface that also allows you to schedule downloads from your browser without having to make an api request using postman.</description>
+    </item>
     
     <item>
       <title>Logistics Management</title>
