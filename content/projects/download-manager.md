@@ -4,7 +4,7 @@ description: "This project is a file downloader and scheduler with an api interf
 image: "/images/projects/download-manager/index.jpg"
 ogtype: article
 ogimage: "/images/projects/download-manager/index.jpg"
-date: 2021-03-29T18:14:21Z
+date: 2021-04-24T13:44:21Z
 draft: false
 slug: "download-manager"
 ---
