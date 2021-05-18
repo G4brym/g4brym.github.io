@@ -8,7 +8,6 @@ canonifyURLs = true
   main = [
       {Name = "Github", URL = "https://github.com/g4brym/"},
       {Name = "LinkedIn", URL = "https://www.linkedin.com/in/gabriel-massadas/"},
-      {Name = "Keybase", URL = "https://keybase.io/g4brym"},
       {Name = "Medium", URL = "https://medium.com/@g4brym"}
   ]
 

@@ -41,6 +41,8 @@ filled up with what was delivered and what not.
 * Keep track of all the package's status, locations, and history
 * Keep track of clients billing status
 * Manage system users
+* Multiple Custodians
+* A single admin user can access multiple companies with the same login
 
 
 ## 3. Mobile app Features
