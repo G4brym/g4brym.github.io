@@ -1,6 +1,6 @@
 baseURL = "https://massadas.com/"
 languageCode = "en-us"
-title = "Gabriel Massadas Portfolio"
+title = "Gabriel Portfolio"
 theme = "hyde"
 canonifyURLs = true
 
